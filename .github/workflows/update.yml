@@ -35,6 +35,6 @@ jobs:
           else
             git add -A && git commit -m "automated content update" && git push origin master
           fi
-      call_publish:
+  call_publish:
     needs: build
     uses: ./.github/workflows/deploy.yml
