@@ -1,9 +1,11 @@
----
-title: "Why Lockbook chose Rust"
-date: 2023-01-02T18:11:19-04:00
-draft: false
-tags: ["lockbook", "programming"]
----
++++
+title = "Why Lockbook chose Rust"
+date = 2023-01-02T18:11:19-04:00
+draft = false
+
+[taxonomies]
+tags = ["lockbook", "programming"]
++++
 
 # Why Lockbook chose Rust
 
