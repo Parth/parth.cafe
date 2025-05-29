@@ -1,8 +1,11 @@
----
-title: "Creating a SICK CLI"
-date: 2023-10-11T18:11:19-04:00
-draft: false
----
++++
+title = "Creating a SICK CLI"
+date = 2023-10-11T18:11:19-04:00
+draft = false
+
+[taxonomies]
+tags = ["lockbook", "programming"]
++++
 
 # Creating a SICK CLI
 

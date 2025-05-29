@@ -1,8 +1,11 @@
----
-title: "Ideation"
-date: 2020-05-12T18:11:19-04:00
-draft: false
----
++++
+title = "Ideation"
+date = 2020-05-12T18:11:19-04:00
+draft = false
+
+[taxonomies]
+tags = ["programming"]
++++
 
 Over the last 10 years I've gone through the process of ideation, execution and delivery countless times. I'd like to share some lessons I've learned and how I think about projects today.
 
