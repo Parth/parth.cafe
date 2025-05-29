@@ -1,7 +1,7 @@
 +++
-title: "What you do is how you see."
-date: 2020-03-07T19:32:33-05:00
-draft: false
+title = "What you do is how you see."
+date = 2020-03-07T19:32:33-05:00
+draft = false
 
 [taxonomies]
 tags = ["programming"]
