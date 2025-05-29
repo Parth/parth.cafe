@@ -1,8 +1,11 @@
----
-title: "What you do is how you see."
-date: 2020-03-07T19:32:33-05:00
-draft: false
----
++++
+title = "What you do is how you see."
+date = 2020-03-07T19:32:33-05:00
+draft = false
+
+[taxonomies]
+tags = ["programming"]
++++
 
 I've been giving a lot of thought to the various ways people view problems and solutions, particularly: how does _what you spend most of your time doing_ map to the way you view the world? For example, people who spend a lot of time thinking about marketing and sales may have the following perspective: all the problems and solutions are out there; the hard part is creating a narrative that connects the dots. On the other hand, I would wager that people in finance see things in terms of accurate pricing, forecasting, and resource allocation.
 

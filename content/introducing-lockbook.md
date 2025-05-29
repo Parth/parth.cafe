@@ -1,8 +1,11 @@
----
-title: "Introducing Lockbook"
-date: 2022-10-29T18:11:19-04:00
-draft: false
----
++++
+title = "Introducing Lockbook"
+date = 2022-10-29T18:11:19-04:00
+draft = false
+
+[taxonomies]
+tags = ["lockbook", "programming"]
++++
 
 # A new note-taking app
 

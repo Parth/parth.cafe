@@ -1,8 +1,11 @@
----
-title: "Defect Finder"
-date: 2023-08-24T18:11:19-04:00
-draft: false
----
++++
+title = "Defect Finder"
+date = 2023-08-24T18:11:19-04:00
+draft = false
+
+[taxonomies]
+tags = ["lockbook", "programming"]
++++
 
 # Defect hunting
 

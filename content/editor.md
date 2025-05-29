@@ -1,8 +1,11 @@
----
-title: "Lockbook's Editor"
-date: 2023-06-12T18:11:19-04:00
-draft: false
----
++++
+title = "Lockbook's Editor"
+date = 2023-06-12T18:11:19-04:00
+draft = false
+
+[taxonomies]
+tags = ["lockbook", "programming"]
++++
 
 # Lockbook's Editor
 

@@ -1,8 +1,11 @@
----
-title: "System design"
-date: 2020-03-12T20:43:56-04:00
-draft: true
----
++++
+title = "System design"
+date = 2020-03-12T20:43:56-04:00
+draft = true
+
+[taxonomies]
+tags = ["programming"]
++++
 
 When I first started exploring programming I wasn't sure how anything was made. As I learned about the various components of a stack, I started to form a clearer picture of the ways people design systems.
 
