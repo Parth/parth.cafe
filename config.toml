@@ -1,17 +1,16 @@
 theme = "tabi"
 title = "Parth"
-# 
-# The URL the site will be built for
 base_url = "https://parth.github.io/parth.cafe"
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-[taxonomies]
-tags = ["lockbook", "programming", "personal development", "wrenching", "miata"]
+taxonomies = [
+    { name = "lockbook", feed = true },
+    { name = "programming", feed = true },
+    { name = "personal development", feed = true },
+    { name = "wrenching", feed = true },
+    { name = "miata", feed = true }
+]
 
 [markdown]
 highlight_code = true
