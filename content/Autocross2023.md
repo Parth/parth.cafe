@@ -11,7 +11,7 @@ tags = ["wrenching", "miata"]
 
 Last season I raced the Miata, twice! I had a lot of fun and learned a great deal.
 
-![pasted_image_2024-07-04_21-18-25.png``](../imports/pasted_image_2024-07-04_21-18-25.png)
+![pasted_image_2024-07-04_21-18-25.png](../imports/pasted_image_2024-07-04_21-18-25.png)
 
 If Formula 1 racing is the top rung of motorsports, autocross is probably at the bottom. Autocross is generally hosted in a parking lot and the track is defined by cones. The format of the "race" is a time trial, one car is sent out at a time and the fastest time wins. You receive a time penalty for each cone you hit. 
 
