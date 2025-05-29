@@ -1,5 +1,10 @@
 +++
+title = "Building a race car."
+date = 2023-08-23T19:32:33-05:00
+draft = false
 
+[taxonomies]
+tags = ["wrenching", "miata"]
 +++
 
 # future race car
