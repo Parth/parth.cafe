@@ -1,0 +1,36 @@
+on:
+  schedule:
+    - cron:  '*/5 * * * *'  
+name: update content folder
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: install lockbook
+        run: |
+          mkdir -p $HOME/bin
+          curl -L https://github.com/lockbook/lockbook/releases/download/0.9.23/lockbook-cli-linux -o $HOME/bin/lockbook
+          chmod +x $HOME/bin/lockbook
+          echo "$HOME/bin" >> $GITHUB_PATH
+      - name: login to lockbook
+        env:
+          SECRET: ${{ secrets.LB_ACCOUNT_SECRET }}
+        run: |
+          echo $SECRET | lockbook account import
+          lockbook sync
+      - name: update content
+        run: |
+          rm -rf parth.cafe content
+          mkdir content
+          lockbook export parth.cafe .
+          mv parth.cafe/* content
+      - name: commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -m "automated content update" && git push origin master
+  call_publish:
+    needs: build
+    uses: ./.github/workflows/deploy.yml
