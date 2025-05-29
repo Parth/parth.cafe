@@ -1,5 +1,5 @@
 +++
-title = "Windshield Repair, Window Bushings and more."
+title = "Miata Powertrain Trace."
 date = 2023-09-23T19:32:33-05:00
 draft = true
 
