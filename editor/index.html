@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8"><meta http-equiv="Content-Security-Policy"
+content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#x27; https:&#x2F;&#x2F;* data:;media-src &#x27;self&#x27;;style-src &#x27;self&#x27;;frame-src player.vimeo.com https:&#x2F;&#x2F;www.youtube-nocookie.com;connect-src 'self';script-src 'self' 'self'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https://parth.github.io/parth.cafe">
+
+    
+    <title>
+Parth • Lockbook's Editor</title>
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+        
+            <link rel="stylesheet" href="https://parth.github.io/parth.cafe/custom_subset.css?h=0b9535a28bc3d5bf2321">
+        
+    
+
+    
+        <link rel="stylesheet" href="https://parth.github.io/parth.cafe/main.css?h=6b1dda977391dad0c76e" />
+
+    <meta name="color-scheme" content="light dark" />
+        <meta name="description" content="" />
+        <meta property="og:description" content="" />
+
+    
+
+    <meta property="og:title" content="Lockbook's Editor" />
+    <meta property="og:type" content="article" />
+
+    
+<meta property="og:locale" content="en_GB" />
+
+    <meta property="og:url" content="https:&#x2F;&#x2F;parth.github.io&#x2F;parth.cafe&#x2F;editor&#x2F;" /><meta property="og:site_name" content="Parth">
+        <noscript><link rel="stylesheet" href="https://parth.github.io/parth.cafe/no_js.css"/></noscript>
+        <script type="text/javascript" src="https://parth.github.io/parth.cafe/js/initializeTheme.min.js"></script>
+        <script defer src="https://parth.github.io/parth.cafe/js/themeSwitcher.min.js"></script><script defer src="https://parth.github.io/parth.cafe/search_index.en.js?h=a9d5e49826c88119a540"></script>
+        <script defer src="https://parth.github.io/parth.cafe/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script>
+
+        </head>
+
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="nav-title">
+            <a class="home-title" href="https://parth.github.io/parth.cafe">Parth</a>
+        </div>
+            <div class="nav-navs">
+                <ul>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://parth.github.io/parth.cafe/blog/">blog
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://parth.github.io/parth.cafe/archive/">archive
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://parth.github.io/parth.cafe/tags/">tags
+                                </a>
+                            </li>
+                        <li class="menu-icons-container">
+                        <ul class="menu-icons-group">
+                            <li class="js menu-icon">
+                                <div role="button" tabindex="0" id="search-button" class="search-icon interactive-icon" title="Click or press $SHORTCUT to open search" aria-label="Click or press $SHORTCUT to open search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                                    </svg>
+                                </div>
+                            </li>
+
+                            
+                            
+
+                            <li class="theme-switcher-wrapper js"><div
+        title="Toggle dark&#x2F;light mode"
+        class="theme-switcher"
+        tabindex="0"
+        role="button"
+        aria-label="Toggle dark mode"
+        aria-pressed="false">
+    </div><div
+        title="Reset mode to default"
+        class="theme-resetter arrow"
+        tabindex="0"
+        role="button"
+        aria-hidden="true"
+        aria-label="Reset mode to default">
+    </div>
+
+</li>
+</ul>
+                    </li>
+                </ul>
+            </div>
+        
+    </nav>
+</header>
+
+    <div class="content">
+
+        
+        
+
+
+
+
+<main>
+    <article>
+        <h1 class="article-title">
+            Lockbook's Editor
+        </h1>
+
+        <ul class="meta">
+
+            
+                <span class="hidden p-author h-card">
+<a rel="author" href="https:&#x2F;&#x2F;parth.github.io&#x2F;parth.cafe" class="u-url " title=""></a>
+</span>
+
+            
+                <li>12th Jun 2023</li><li title="1032 words"><span class='separator' aria-hidden='true'>•</span>6 min read</li><li class="tag"><span class='separator' aria-hidden='true'>•</span>Tags:&nbsp;</li><li class="tag"><a href="https://parth.github.io/parth.cafe/tags/lockbook/">lockbook</a>,&nbsp;</li><li class="tag"><a href="https://parth.github.io/parth.cafe/tags/programming/">programming</a></li>
+        </ul>
+
+        <section class="body"><h1 id="lockbook-s-editor">Lockbook's Editor</h1>
+<p><em>Building a complex UI element in Rust that can be embedded in any UI framework</em></p>
+<p>As <a href="https://parth.cafe/p/introducing-lockbook">Lockbook</a>'s infrastructure stabilized, we began to focus on our markdown editing experience. Across our various platforms, we've experimented with a few approaches for providing our users with an ergonomic way to edit their files. On Android, we use <a href="https://github.com/noties/Markwon">Markwon</a>, a community-built markdown editor. On Apple, we initially did the same thing but found that the community components didn't have many of the features our users were asking for. So as a next step, we dove into Apple's <a href="https://developer.apple.com/documentation/appkit/textkit">TextKit</a> API to begin work on a more ambitious editor.</p>
+<p>Initially, this was fine, but as we worked through our backlog of requests, I found things that were going to be very time-expensive to implement using this API. We were having performance problems when editing large documents. The API was difficult to work with, especially because there were no open existing bodies of work that implemented features like automatic insertion of text (when adding to a list), support for non-text-characters (bullets, checkboxes, inline images), or multiple cursors (real-time collaboration or power user text editing). Even if we did invest the effort to pioneer these features using TextKit, we would have to replicate our efforts on our other platforms. And lastly, none of my other teammates knew the TextKit API intimately, so I wouldn't be able to easily call on their help for one of the most important aspects of our product. We needed a different approach.</p>
+<p>In the past, I've discussed our <a href="https://parth.cafe/p/why-lockbook-chose-rust">core library</a> -- a place we've been able to solve some of our hardest "backend" problems and bring them to foreign programming environments. We needed something like this for a UI component we needed a place where we could invest the time, build an editor from the ground up, and embed it in any UI library.</p>
+<p>We considered creating a web component. Perhaps we could mitigate some of the downsides of web apps if we were only presenting a web-based view when a document was loaded. Maybe we could leverage Rust's great support for web assembly for the complicated internals. Ultimately I felt like we could do better, so I continued thinking about the problem. On Linux, we'd begun experimenting with <a href="https://github.com/emilk/egui">egui</a>: a lightweight, Rust, UI library. Their README had a long list of places you could embed egui, and I wondered if I could add SwiftUI or Android to that list.</p>
+<p>And so began my journey of gaining a deeper understanding of <a href="https://wgpu.rs/">wgpu</a>, <a href="https://eliasnaur.com/blog/immediate-mode-gui-programming">immediate mode UIs</a>, and how this editor might work on mobile devices.</p>
+<p>Most UI frameworks have an API for directly interfacing with a lower-level graphics API. In SwiftUI, for instance, you can create an <code>MTKView</code> which gives you access to <a href="https://developer.apple.com/documentation/metalkit">MetalKit</a> (Apple's hardware accelerated graphics API). Using this view, you can effectively pass a reference to the GPU into Rust code and initialize an egui component. In the host UI framework you can capture whichever events you need (keyboard &amp; mouse events for instance) and pass them to the embedded UI framework. It's the simplicity of immediate mode programming which enables this to be achievable in a short period, and it's the flexibility of immediate mode programming which makes it a great choice for complex and ambitious UI components. The approach seemed like it held promise so we gave it a go.</p>
+<p>After a month of prototyping and pair programming with my co-founder Travis, we had done it. We shipped a version of our Text Editor on macOS, Windows, and Linux which supported many of the features our team and users had been craving. The editor was incredibly high-performance, easily achieving 120fps on massive documents. Most importantly we have a clear picture of how we would go about implementing our most ambitious features over the next couple of years.</p>
+<p>After we released the editor on the desktop, we began the process of bringing it to mobile devices. This was a new frontier for this approach. On macOS, we just had to pass through keyboard and mouse events. On a mobile device, there are many subtle ways people can edit documents. There are auto-correct, speech-to-text, and clever ways to navigate documents. After some research, we found a neatly documented protocol -- <a href="https://developer.apple.com/documentation/uikit/uitextinput"><code>UITextInput</code></a> -- which outlines the various ways in which you can interact with a software keyboard on iOS. We also found a <a href="https://developer.android.com/reference/android/view/inputmethod/InputMethodManager">corresponding document</a> in Android's documentation.</p>
+<p>So back to work we went. We expanded on our SwiftUI &lt;--&gt; egui integration giving it the ability to handle events that egui doesn't recognize. We piped through these new events, refined the way we handle mouse/touch inputs, and a couple of weeks ago, we merged our iOS editor bringing many of our gains to a new form factor.</p>
+<p>We're very excited about the possibilities this technique opens up for us. It allows us to maintain the look &amp; feel that users crave while giving us an escape hatch down into our preferred programming environment when we need it. Once our editor is more mature and the kinks of our integration are worked out, we plan to apply this strategy to more document types. Long term we're interested in making it easy for people to quickly spin up their own SwiftUI component backed by Rust (as presently this still requires a lot of boilerplate code).</p>
+<p>On net, the editor has been a big step forward for us. It's already live on desktops and will be shipping on iOS as part of our upcoming 0.7.5 release. It's a large and fresh body of work, so we anticipate some bugs. If you encounter any, please report them to our <a href="https://github.com/lockbook/lockbook/issues">Github issues</a>. And, as always, if you'd like to join our community, we'd love to have you on our <a href="https://discord.gg/qv9fmAZCm6">Discord server</a>.</p>
+
+        </section>
+
+        
+        
+        
+
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+        
+
+    </article>
+</main>
+
+
+<span id="copy-success" class="hidden">
+        Copied!
+    </span>
+    <span id="copy-init" class="hidden">
+        Copy code to clipboard
+    </span>
+    <script defer src="https://parth.github.io/parth.cafe/js/copyCodeToClipboard.min.js"></script>
+
+
+    </div>
+    <footer>
+    <section>
+        <nav class="socials nav-navs"><ul><li>
+                        <a class="nav-links no-hover-padding social" rel="" 
+
+ href="https://parth.github.io/parth.cafe/atom.xml">
+                        <img loading="lazy" alt="feed" title="feed" src="https://parth.github.io/parth.cafe/social_icons/rss.svg">
+                        </a>
+                    </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://github.com/parth/">
+                                    <img loading="lazy" alt="github" title="github" src="https://parth.github.io/parth.cafe/social_icons/github.svg">
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://instagram.com/mehrotraparth">
+                                    <img loading="lazy" alt="instagram" title="instagram" src="https://parth.github.io/parth.cafe/social_icons/instagram.svg">
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://www.youtube.com/@ParthMehrotra">
+                                    <img loading="lazy" alt="youtube" title="youtube" src="https://parth.github.io/parth.cafe/social_icons/youtube.svg">
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://open.spotify.com/user/1246406255?si=74cbe323cc604663">
+                                    <img loading="lazy" alt="spotify" title="spotify" src="https://parth.github.io/parth.cafe/social_icons/spotify.svg">
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            
+        </nav>
+
+        
+        <nav class="nav-navs">
+        </nav>
+
+    </section>
+
+    <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+    <h1 id="modalTitle" class="visually-hidden">Search</h1>
+    <div id="modal-content">
+        <div id="searchBar">
+            <div class="search-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                    <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                </svg>
+            </div>
+            <input id="searchInput" role="combobox" autocomplete="off" spellcheck="false" aria-expanded="false" aria-controls="results-container" placeholder="Search…"/>
+            <div id="clear-search" class="close-icon interactive-icon" tabindex="0" role="button" title="Clear search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </div>
+        </div>
+        <div id="results-container">
+            <div id="results-info"><span id="zero_results"> No results</span>
+                <span id="one_results"> $NUMBER result</span>
+                <span id="many_results"> $NUMBER results</span><span id="two_results"> $NUMBER results</span>
+                <span id="few_results"> $NUMBER results</span>
+            </div>
+            <div id="results" role="listbox"></div>
+        </div>
+    </div>
+</div>
+</footer>
+
+</body>
+
+</html>
