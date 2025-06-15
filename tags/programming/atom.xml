@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://parth.github.io/parth.cafe/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;parth.github.io&#x2F;parth.cafe</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It&#x27;s free.</tabi:about_feeds>
+        <tabi:visit_the_site>Visit website</tabi:visit_the_site>
+        <tabi:recent_posts>Recent posts</tabi:recent_posts>
+        <tabi:last_updated_on>Updated on $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>programming</tabi:current_section>
+    </tabi:metadata><title>Parth - programming</title>
+    <link href="https://parth.github.io/parth.cafe/tags/programming/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://parth.github.io/parth.cafe/tags/programming/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-10-11T18:11:19-04:00</updated>
+    <id>https://parth.github.io/parth.cafe/tags/programming/atom.xml</id><entry xml:lang="en">
+        <title>Creating a SICK CLI</title>
+        <published>2023-10-11T18:11:19-04:00</published>
+        <updated>2023-10-11T18:11:19-04:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/creating-a-sick-cli/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/creating-a-sick-cli/</id>
+        </entry><entry xml:lang="en">
+        <title>Defect Finder</title>
+        <published>2023-08-24T18:11:19-04:00</published>
+        <updated>2023-08-24T18:11:19-04:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/test-simulator/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/test-simulator/</id>
+        </entry><entry xml:lang="en">
+        <title>Lockbook&#x27;s Editor</title>
+        <published>2023-06-12T18:11:19-04:00</published>
+        <updated>2023-06-12T18:11:19-04:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/editor/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/editor/</id>
+        </entry><entry xml:lang="en">
+        <title>db-rs</title>
+        <published>2023-04-19T18:11:19-04:00</published>
+        <updated>2023-04-19T18:11:19-04:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/db-rs/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/db-rs/</id>
+        </entry><entry xml:lang="en">
+        <title>Why Lockbook chose Rust</title>
+        <published>2023-01-02T18:11:19-04:00</published>
+        <updated>2023-01-02T18:11:19-04:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/core/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/core/</id>
+        </entry><entry xml:lang="en">
+        <title>Introducing Lockbook</title>
+        <published>2022-10-29T18:11:19-04:00</published>
+        <updated>2022-10-29T18:11:19-04:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/introducing-lockbook/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/introducing-lockbook/</id>
+        </entry><entry xml:lang="en">
+        <title>Ideation</title>
+        <published>2020-05-12T18:11:19-04:00</published>
+        <updated>2020-05-12T18:11:19-04:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/ideation/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/ideation/</id>
+        </entry><entry xml:lang="en">
+        <title>What you do is how you see.</title>
+        <published>2020-03-07T19:32:33-05:00</published>
+        <updated>2020-03-07T19:32:33-05:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://parth.github.io/parth.cafe/what-you-see/" type="text/html"/>
+        <id>https://parth.github.io/parth.cafe/what-you-see/</id>
+        </entry>
+</feed>

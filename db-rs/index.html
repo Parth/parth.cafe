@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8"><meta http-equiv="Content-Security-Policy"
+content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#x27; https:&#x2F;&#x2F;* data:;media-src &#x27;self&#x27;;style-src &#x27;self&#x27;;frame-src player.vimeo.com https:&#x2F;&#x2F;www.youtube-nocookie.com;connect-src 'self';script-src 'self' 'self'">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https://parth.github.io/parth.cafe">
+
+    
+    <title>
+Parth • db-rs</title>
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+        
+            <link rel="stylesheet" href="https://parth.github.io/parth.cafe/custom_subset.css?h=0b9535a28bc3d5bf2321">
+        
+    
+
+    
+        <link rel="stylesheet" href="https://parth.github.io/parth.cafe/main.css?h=6b1dda977391dad0c76e" />
+
+    <meta name="color-scheme" content="light dark" />
+        <meta name="description" content="" />
+        <meta property="og:description" content="" />
+
+    
+
+    <meta property="og:title" content="db-rs" />
+    <meta property="og:type" content="article" />
+
+    
+<meta property="og:locale" content="en_GB" />
+
+    <meta property="og:url" content="https:&#x2F;&#x2F;parth.github.io&#x2F;parth.cafe&#x2F;db-rs&#x2F;" /><meta property="og:site_name" content="Parth">
+        <noscript><link rel="stylesheet" href="https://parth.github.io/parth.cafe/no_js.css"/></noscript>
+        <script type="text/javascript" src="https://parth.github.io/parth.cafe/js/initializeTheme.min.js"></script>
+        <script defer src="https://parth.github.io/parth.cafe/js/themeSwitcher.min.js"></script><script defer src="https://parth.github.io/parth.cafe/search_index.en.js?h=a9d5e49826c88119a540"></script>
+        <script defer src="https://parth.github.io/parth.cafe/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script>
+
+        </head>
+
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="nav-title">
+            <a class="home-title" href="https://parth.github.io/parth.cafe">Parth</a>
+        </div>
+            <div class="nav-navs">
+                <ul>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://parth.github.io/parth.cafe/blog/">blog
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://parth.github.io/parth.cafe/archive/">archive
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding" href="https://parth.github.io/parth.cafe/tags/">tags
+                                </a>
+                            </li>
+                        <li class="menu-icons-container">
+                        <ul class="menu-icons-group">
+                            <li class="js menu-icon">
+                                <div role="button" tabindex="0" id="search-button" class="search-icon interactive-icon" title="Click or press $SHORTCUT to open search" aria-label="Click or press $SHORTCUT to open search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                        <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                                    </svg>
+                                </div>
+                            </li>
+
+                            
+                            
+
+                            <li class="theme-switcher-wrapper js"><div
+        title="Toggle dark&#x2F;light mode"
+        class="theme-switcher"
+        tabindex="0"
+        role="button"
+        aria-label="Toggle dark mode"
+        aria-pressed="false">
+    </div><div
+        title="Reset mode to default"
+        class="theme-resetter arrow"
+        tabindex="0"
+        role="button"
+        aria-hidden="true"
+        aria-label="Reset mode to default">
+    </div>
+
+</li>
+</ul>
+                    </li>
+                </ul>
+            </div>
+        
+    </nav>
+</header>
+
+    <div class="content">
+
+        
+        
+
+
+
+
+<main>
+    <article>
+        <h1 class="article-title">
+            db-rs
+        </h1>
+
+        <ul class="meta">
+
+            
+                <span class="hidden p-author h-card">
+<a rel="author" href="https:&#x2F;&#x2F;parth.github.io&#x2F;parth.cafe" class="u-url " title=""></a>
+</span>
+
+            
+                <li>19th Apr 2023</li><li title="4082 words"><span class='separator' aria-hidden='true'>•</span>21 min read</li><li class="tag"><span class='separator' aria-hidden='true'>•</span>Tags:&nbsp;</li><li class="tag"><a href="https://parth.github.io/parth.cafe/tags/lockbook/">lockbook</a>,&nbsp;</li><li class="tag"><a href="https://parth.github.io/parth.cafe/tags/programming/">programming</a></li>
+        </ul>
+
+        <section class="body"><h1 id="db-rs">db-rs</h1>
+<p><em>The story of how Lockbook created its own database for speed and productivity.</em></p>
+<p>As a backend engineer, the architecture I see used most commonly is a loadbalancer distributing requests to several horizontally scaled API servers. Those API servers are generally talking to one or more stores of state. <a href="https://parth.cafe/p/introducing-lockbook">Lockbook</a> also started this way, we load balanced requests using HAProxy, had a handful of <a href="https://parth.cafe/p/why-lockbook-chose-rust">Rust API nodes</a>, and stored our data in Postgres and S3.</p>
+<p>A year into the project, we had developed enough of the product that we understood our needs more clearly, but we were still early enough into our journey where we could make breaking changes and run experiments. I had some reservations about this <em>default</em> architecture, and before the team stabilized our API, I wanted to see if we could do better.</p>
+<p>My first complaint was about our interactions with SQL. It was annoying to shuffle data back and forth from the fields of our structs into columns of our tables. Over time our SQL queries grew more complicated, and it was hard to express and maintain ideas like <em>a user's file tree cannot have cycles</em> or <em>a file cannot have the same name as a non-deleted sibling</em>. We were constantly trying to determine whether we should express something in SQL, or read a user's data into our API server, perform and validate the operation in Rust, and then save the new state of their file tree. Concerns around transaction isolation, consistency, and performance were always hard to reason about. We were growing frusterated because we knew how we want this data to be stored and processed and were burning cycles fighting our declarative environment.</p>
+<p>My second complaint was about how much infrastructure we had to manage. While on the topic of Postgres itself, running Postgres at a production scale is not trivial. There's a great deal of trivia you have to understand to make Postgres work properly with your API servers and your hardware. First we had to understand what features of Postgres our database libraries supported. In our case, that meant evaluating whether we needed to additionally run PGBouncer, Postgres' connection pooling server, and potentially another piece of infrastructure to manage. Regardless of PGBouncer, configuring Postgres itself requires an understanding of how Postgres interacts with your hardware. From Postgres' <a href="https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server">configuration guide</a>:</p>
+<blockquote>
+<p>PostgreSQL ships with a basic configuration tuned for wide compatibility rather than performance. Odds are good the default parameters are very undersized for your system....</p>
+</blockquote>
+<p>That's just Postgres. Similar complexities existed for S3, HAProxy, and the networking and monitoring considerations of all the nodes mentioned thus far. This was quickly becoming overwhelming, and we hadn't broken ground on <em>user collaboration</em>, one of our most ambitious features. For a team sufficiently large this may be no big deal. Just hire some ops people to stand up the servers so the software engineers can engineer the software. For our resource-constrained team of 5, this wasn't going to work. Additionally, when we surveyed the useful work our servers were performing, we knew this level of complexity was unnecessary.</p>
+<p>For example, when a user signs up for Lockbook or makes an edit to a file, the actual useful work that our server did to record that information should have taken no more than 2ms. But from our load balancer's reporting, those requests were taking 50-200ms. We were using all these heavy-weight tools to be able to field lots of concurrent requests without paying any attention to how long those requests were taking. Would we need all this if the requests were fast?</p>
+<p>We ran some experiments with Redis and stored files in EBS instead of S3, and the initial results were promising. We expressed all our logic in Rust and vastly increased the amount of code we were able to share with our clients (core). We dramatically reduced our latency, and our app felt noticeably faster. However, most of that request time was spent waiting for Redis to respond over the network (even if we hosted our application and database on the same server). And we were still spending time ferrying information in and out of Redis. I knew something was interesting to explore here.</p>
+<p>So after a week of prototyping, I created <a href="https://github.com/parth/db-rs">db-rs</a>. The idea was to make a stupid-simple database that could be embedded as a Rust library directly into our application. No network hops, no context switches, and huge performance gains. Have it be easy for someone to specify a schema in Rust, and allow them to pick what the performance characteristics of these simple key-value style tables would be. This is Core's schema, for instance:</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span>#[</span><span style="color:#bf616a;">derive</span><span>(Schema, Debug)]
+</span><span style="color:#b48ead;">pub struct </span><span>CoreV3 {
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">account</span><span>: Single&lt;Account&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">last_synced</span><span>: Single&lt;</span><span style="color:#b48ead;">i64</span><span>&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">root</span><span>: Single&lt;Uuid&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">local_metadata</span><span>: LookupTable&lt;Uuid, SignedFile&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">base_metadata</span><span>: LookupTable&lt;Uuid, SignedFile&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">pub_key_lookup</span><span>: LookupTable&lt;Owner, String&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">doc_events</span><span>: List&lt;DocEvent&gt;,
+</span><span>}
+</span></code></pre>
+<p>The types <code>Single</code>, <code>LookupTable</code>, and <code>List</code> are db-rs table types. They are backed by Rust <code>Option</code>, <code>HashMap</code>, or <code>Vec</code> respectively. They capture changes to their data structures, <code>Serialize</code> those changes and append them to the end of a log -- one of the fastest ways to persist an event.</p>
+<p>The types <code>Account</code>, <code>SignedFile</code>, <code>Uuid</code>, etc are types Lookbook is using. They all implement the ubiquitous <code>Serialize</code> <code>Deserialize</code> traits, so we never again need to think about converting between our types and their on-disk format. Internally db-rs uses  <a href="https://tyoverby.com/posts/bincode_release.html"><code>bincode</code></a> format, an incredibly <a href="https://github.com/djkoloski/rust_serialization_benchmark">performant</a> and compact representation of your data.</p>
+<p>What's cool here is that when you query out of a table, you're handed pointers to <em>your data</em>. The database isn't fetching bytes, serializing them, or sending them over the wire for your program to then shuffle into its fields. A read from one of these tables is a direct memory access, and because of Rust's memory guarantees, you can be sure that reference will be valid for the duration of your access to it.</p>
+<p>What's exciting from an ergonomics standpoint is that your schema is statically known by your editor. It's not defined and running on a server somewhere else. So if you type <code>db.</code> you get a list of your tables. If you select one, then that table-type's contract is shown to you, with <em>your</em> keys and values. Additionally for us, now our backend stack doesn't require any container orchestration whatsoever: you just need <code>cargo</code> to run our server. This has been massive boon for quickly setting up environments whether locally or in production.</p>
+<p>The core ideas of the database are less than 800 lines of code and are fairly easy to reason about. This is a database that's working well for us not because of what it does, but because of all the things it <em>doesn't do</em>. And what we've gained from db-rs is a tremendous amount of performance and productivity.</p>
+<p>Ultimately this is a different way to think about scaling a backend. When you string together 2-4 pieces of infrastructure over the network, you're incurring a big latency cost, and hopefully what you're gaining as a result is availability. But are you? If you're using something like Postgres, you're also in a situation where your database is your single point of failure. You've just surrounded that database with a lot of ceremonies, and I'm skeptical that the ceremony helps Postgres respond to queries faster or that it helps engineers deliver value more quickly.</p>
+<p>db-rs has been running in production for half a year at this point. Most requests are replied to in less than 1 ms. we anticipate that on a modest EC2 node, we should be able to scale to hundreds of thousands of users and field hundreds of requests per second. Should we need to, we can  scale vertically 1-2 orders of magnitude beyond this point. Ultimately our backend plans to follow a scaling strategy similar to email where users have a home server. And our long-term vision is one of a network of decentralized server operators. But that's a dream that's still quite far away.</p>
+<p>As a result, what Lockbook ultimately converged on, is probably my new <em>default</em> approach for building simple backend systems. If this intrigues you, check out the <a href="https://github.com/parth/db-rs">source code</a> of db-rs or take it for a <a href="https://crates.io/crates/db-rs">spin</a>.</p>
+<p>Currently db-rs exactly models the needs of Lockbook. there are key weaknesses around areas of concurrency and offloading seldom accessed data to disk. Whenever Lockbook or one of db-rs' users needs these things, they'll be added. Feel free to open an issue or pull request!</p>
+<h1 id="db-rs-attempt-2">db-rs (attempt 2)</h1>
+<p>When <a href="https://parth.cafe/p/introducing-lockbook">Lockbook</a> first began, it's architecture was I would consider <em>the typical backend architecture</em>. When a client would make a request, it would be load balanced to one of several api servers. The selected api server would communicate either Postgres, and S3 to fulfill that request. As we designed the product we understood our needs better and gradually re-evaluated various components of our architecture. We learned a lot through this process and although our needs are not unique, the architecture we're converging towards is unique in it's simplicity: a single api server, running a single <a href="https://parth.cafe/p/why-lockbook-chose-rust">Rust</a> program. In part this architecture was enabled by an expressive, lightweight, embedded database I wrote called <a href="https://github.com/parth/db-rs">db-rs</a>. Transitioning to this architecture allowed us to move much more quickly and we expect it to (conservatively) handle hundreds of requests a second made by hundreds of thousands of users all for around $50 / month. Today, for most <em>typical</em> projects, this would be my <em>default</em> approach.</p>
+<p>Like most backends, we have users who have accounts, accounts manage our domain specific objects: their File. Both users and files have metadata associated with them, users have billing information, files have names, locations, collaboration information, size, etc.</p>
+<p>We were finding that doing typical things in the context of a <em>typical</em> architecture was slow and annoying. For instance much of this data modeling and access would be done with SQL. Your backend however is certainly not written in SQL, so this requires some level of data conversion for <strong>every</strong> field that your server persists. There's likely to be subtle mismatches around how your langauge handles types (limits, signs, encoding) or even meta ideas around types (nullability). You may try an ORM which has it's own strengths and weaknesses. We also found that modeling certain ideas about files was hard to do at the database level: for instance, two files with the same parent cannot have the same name, unless one of them is deleted. Or even trickier: you cannot have a cycle in your file tree.</p>
+<p>Maybe it's silly to try to do this in SQL, so instead you read all the relevant data into your application and run your validations in your server and only write to the database once you're satisfied with the state of your data. But make you're up-to speed on your <a href="https://www.postgresql.org/docs/current/transaction-iso.html">transaction isolation types!</a> Oh also make sure no one writes to your database without going through your server first otherwise they may invalidate your assumptions.</p>
+<p>Okay maybe you do want to do this in SQL then, so you write a complicated query in a language with very little support for things like tests or package manager. And hope that you've expressed your query and setup your tables in a manner that performs acceptably. Okay let's say you've crossed all those hurdles, let's setup some environments: you can have your team install postgres directly and field complaints about it being a pretty heavy application or you can containerize it and field complaints about docker instead. In production you have to determine whether you need <em>pg_bouncer</em> for connection pooling. Okay what about configuring Postgres itself for production, can I just run Postgres on a Linux instance? Nope (<a href="https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server">from postgres.org</a>):</p>
+<blockquote>
+<p>PostgreSQL ships with a basic configuration tuned for wide compatibility rather than performance. Odds are good the default parameters are very undersized for your system.</p>
+</blockquote>
+<p>Not too bad once you read through, but after some reflection <em>this</em> was the sort of thing slowing our team down. We had similar interactions with our load balancer and S3. In the past we've had similar intereactions with tools we've seen our day-jobs use at scale. We were ready to try something new to see if we'd have different outcomes. Our application code itself, while complicated, was a tiny fraction of the total request time. We re-architected to eliminate all network traffic from our server, instead of Postgres initially we used a mutex, a bunch of hash tables, and an append only log. Instead of S3 we saved files locally using EBS. We configured our <a href="https://github.com/seanmonstar/warp">warp</a> rust server to directly handle tls connections rather than our load balancer. Our latencies across all our endpoints were down to less than 2ms without any attention paid to performance within our application layer. We realized we didn't need concurrency, or horizontal scalability just for it's own sake. We wanted our application to be able to scale to the userbase of our dreams, and bringing the latency of each endpoint down by several orders of magnitude was a far easier way to achieve that goal.</p>
+<p>Inspired by the initial results I sat down to see how much progress I could do on the core idea. <code>db-rs</code> is what resulted. In <code>db-rs</code> you specify your database schema in Rust:</p>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span>#[</span><span style="color:#bf616a;">derive</span><span>(Schema, Debug)]
+</span><span style="color:#b48ead;">pub struct </span><span>CoreV3 {
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">account</span><span>: Single&lt;Account&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">last_synced</span><span>: Single&lt;</span><span style="color:#b48ead;">i64</span><span>&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">root</span><span>: Single&lt;Uuid&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">local_metadata</span><span>: LookupTable&lt;Uuid, SignedFile&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">base_metadata</span><span>: LookupTable&lt;Uuid, SignedFile&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">pub_key_lookup</span><span>: LookupTable&lt;Owner, String&gt;,
+</span><span>    </span><span style="color:#b48ead;">pub </span><span style="color:#bf616a;">doc_events</span><span>: List&lt;DocEvent&gt;,
+</span><span>}
+</span></code></pre>
+<p>A single source of truth, version controlled alongside all your other application logic. The types you see are <em>your</em> Rust types, as long as your type implements the ubiquitous <code>Serialize</code> <code>Deserialize</code> traits you won't have to write any conversion code to persist your information. You can select a table type with known and straightforward performance characteristics. Everything within the database is statically known. So all your normal rust-related tooling can easily answer questions like "what tables do I have", how do I append to this table? What key does this query expect? What value will it give me?</p>
+<p>Moreover, when you query, you're handed references to data from within the database, resulting in the fastest possible reads. When you write, your data is serialized in the <a href="https://tyoverby.com/posts/bincode_release.html"><code>bincode</code></a> format, an incredibly <a href="https://github.com/djkoloski/rust_serialization_benchmark">performant</a> and compact representation of your data, persisted to an append-only-log, one of the fastest ways to persist a piece of information generally.</p>
+<p>As a result of this new way of thinking about our backend, we don't have to learn the nitty gritty off:</p>
+<ul>
+<li>SQL</li>
+<li>Postgres at scale</li>
+<li>S3</li>
+<li>Load balancers</li>
+</ul>
+<p>Locally using this database is just a matter of <code>cargo run</code>'ing your server, which is a massive boon for iteration speed and project onboarding. People trying to self host lockbook (not a use case fully supported just yet, but a priority for us) are going to have a significantly easier time doing so now.</p>
+<p>If you're primarily storing things that could be stored within Postgres, and are writing a Rust application, the productivity and performance gains are likely going to be very similar for you. If you had a reference to all your data and could easily generate a response to a given API request within 1ms you're likely also looking at a throughput of hundreds of requests per second. If you're an experienced Rust developer think about how quickly you could get a twitter clone off the ground.</p>
+<p>If this intrigues you, checkout the <a href="https://github.com/parth/db-rs">source code</a> of db-rs or take it for a <a href="https://crates.io/crates/db-rs">spin</a>. The source code is less than 800 significant lines of code, and currently reflects the exact needs of Lockbook. It's very possible that it falls short for you in some way, for instance currently your entire dataset must fit in memory (like Redis), this is fine for Lockbook for the next year or so, but will one day no longer be okay. If this is a problem for you, feel free to open an issue or pull request!</p>
+<h1 id="lockbook-s-architectural-history-attempt-1">Lockbook's architectural history (attempt 1)</h1>
+<p>Today <a href="https://lockbook.net">Lockbook</a>'s architecture is relatively simple: we have a <a href="https://parth.github.io/parth.cafe/db-rs/TODO">core</a> library which is used by all clients to connect to a server. Both <code>core</code> and <code>server</code> are responsible for managing the metadata associated each file and it's content. Our <code>server</code> is a single mid-sized ec2 instance, and makes no network connections for file-related operations. Our <code>core</code> library communicates directly with our server. Operations that may be traditionally handled by a reverse proxy (ssl connection negotiation, load balancing, etc) are handled by a single <a href="https://parth.github.io/parth.cafe/db-rs/TODO">rust</a> binary. Our stack achieves throughput and scale by being minimal and fast: our server responds to all file related requests with sub-millisecond latency.</p>
+<p>Our stack wasn't always this lean, when we first <a href="https://parth.cafe/p/introducing-lockbook">set out</a> our stack looked much more traditional: we used <code>haproxy</code> to load balance requests and provide tls between 2 server nodes. Our server stored files in <code>s3</code> and metadata in <code>postgres</code>. In core we stored our metadata in <code>sqlite</code>.  For most teams, out growing a simple tool usually takes the form of adopting a more complicated-full-featured version of that tool. For us, outgrowing a tool often involved taking a step back and creating a simpler version of the tool that fit our needs better.</p>
+<h2 id="file-contents">File contents</h2>
+<p>Take <code>s3</code> for instance. We found that interacting with s3 was becoming too slow, and a source of, albiet rarely, outages. We saw 3 paths forward:</p>
+<ol>
+<li>Invest deeper in s3. We could expose our users (encrypted) publicly, and have <code>core</code> directly fetch files from <code>s3</code> instead of having our server abstract this away.</li>
+<li>Make our architecture more complicated by caching s3 files somewhere.</li>
+<li>Have our server manage the files itself, locally.</li>
+</ol>
+<p>With <code>s3</code> we had a handful of crates that we could choose between. If we managed files ourselves (writing locally to a drive), we'd be programming against a significantly more stable and well understood api: Posix System Calls. We could use <a href="https://parth.github.io/parth.cafe/db-rs/todo">ebs</a> to make various tradeoffs for performance and cost. We would have a slight increase in code complexity as we'd need to learn how to do atomic writes (write the file somewhere temporarily, and atomically rename it when the write is complete). But we'd have a significant decrease in overall engineering complexity:</p>
+<ul>
+<li>no need to learn about s3 specific concepts (access control, presigned urls, etc).</li>
+<li>no need to simulate s3 in environments where using s3 is infeasible (local development, CI, on-prem deployments). No need to wonder if there's subtle differences between various s3 compliant products.</li>
+<li>significantly smaller surface area of failure.</li>
+</ul>
+<h2 id="file-metadata">File metadata</h2>
+<p>Initially file metadata was stored in Postgres, and to better understand why we moved away from Postgres, I should explain what our metadata storage goals are. When a user attempts to modify a file in some way we need to enforce a number of constraints. We need to make sure no one modifies someone else's files, no one updates a deleted file, no one puts a tree in an invalid state (cycles, path conflicts, etc), and so on. Initially we tried to express these operations and constraints in SQL and after a couple rounds of iteration it was clear this wasn't the right approach. Our SQL expressions were complicated, hard to maintain, and the source of many subtle bugs.</p>
+<p>So we took a step back and moved significant amounts of our logic into rust. The flow of a request was now, a user is trying to perform operation X, fetch all relevant context from the database, perform the operation, run validations, persist the side-effects. This moved most of the complexity back into rust where we could easily write tests, use 3rd party libraries, and iterate quickly with a compiler.</p>
+<p>Even with this refactor, we were still largely unsure about our usage of Postgres. Managing Postgres at scale is non-trivial, the surface area of learning how to configure postgres to keep more data in memory and juggle multiple parallel connections (pg-bouncer) is pretty large. Additionally the local development experience of Postgres was pretty poor, it either involved a deep install on your system, or nescesitated containers. And ultimately there were subtle differences between how it may be configured locally and in production, differences which could meaningfully impact the way queries executed. Finally we were willing to do more up-front thinking about how we would store and access data. We didn't need the flexibility of SQL, and found ourselves facing more problems due to the declarative nature of SQL.</p>
+<p>Since most of the complicated parts were in Rust, switching to Redis was a fairly inexpensive engineering lift. It was significantly easier to reason about how Redis would behave in various situations and manage it at scale under load. Redis was dropped in as a replacement to Postgres, and with this replacement we were able to eliminate an organization wide dependency on docker. Another set of associated concepts we'd no longer need to reason about to achieve our goals. Our team experienced a vastly better local development experience from this change.</p>
+<p>It was now time to pay attention to <code>core</code>. Core shares similar goals to our server with regards to the operations it's trying to perform, but it is additionally constrained by requiring an embedded database and is sensitive to things like startup time and resource requirements. Core also needs to be easy to build for any arbitary rust target, the ideal database would probably be a pure Rust project. Our journey started with SQLite and was a bumpy one initially for some of our compilation targets. But the journey ended the moment we were no longer interested in expressing complicated operations in SQL. Informed by our server-side experience, we left the problem intentionally unsolved for a while as we invested in other areas of the project. We simply persisted our data in a giant JSON files. As we expected while we were in the early days we experienced issues of data corruption as sometimes our writes would be interrupted or multiple processes sharing a data directory would cause data-race-conditions.</p>
+<h3 id="db-rs-1">db-rs</h3>
+<p>After investing in other areas of our project I had done a lot of thinking around databases, especially around what would be ideal for a project that wanted to express as much in Rust as possible. I wanted a database that was fast by virtue of minimalism. For instance, simply being embedded affords your application a massive amount of throughput. For our project, this also meant that we could just stick our database behind a <code>Mutex</code> and significantly reduce the number of problems we're trying to solve at the moment. I wanted a database that was designed with rust users in mind and ultra-low-latency. I also wanted to provide rust users with an ergonomic way for users to express a schema, with rust types (not database specific types) and not have them worry about serialization formats.</p>
+<p>We needed a database that was:</p>
+<ul>
+<li>embedded</li>
+<li>fast</li>
+<li>ergonomic</li>
+<li>durable</li>
+</ul>
+<p>So in about a week I created <a href="https://github.com/parth/db-rs">db-rs</a>.</p>
+<p>Once <code>db-rs</code> existed, with the abstractions present in <code>core</code> and <code>server</code>, it was easy to drop it in. Once again, this simplification boosted performance massively, simplified our code, and simplified our infrastructure, and reduced the number of foreign concepts that our team needed to understand and fbuild around.</p>
+<p>With the request latency the lowest we'd ever seen it, without any significant effort to optimize our code (just eliminate things we didn't want), we also eliminated <code>nginx</code> and just had <code>warp</code> perform <code>tls</code> handshakes and commit to a single server node for the near future. We estimate this modestly priced ec2 instance ($50 / month) can handle hundreds of requests a second from hundreds of thousands of users. If we need to, we have a healthy amount of vertical scaling headroom. Beyond that, our long term plan involves a scaling strategy similar to what's used by self-hosted email.</p>
+<p>Today our only remaining project dependency for most work is just the rust toolchain. Local dev environments spin up instantly without the need for any container or network configuration. Deploying a server means building a binary for linux and executing it.</p>
+
+        </section>
+
+        
+        
+        
+
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+        
+
+    </article>
+</main>
+
+
+<span id="copy-success" class="hidden">
+        Copied!
+    </span>
+    <span id="copy-init" class="hidden">
+        Copy code to clipboard
+    </span>
+    <script defer src="https://parth.github.io/parth.cafe/js/copyCodeToClipboard.min.js"></script>
+
+
+    </div>
+    <footer>
+    <section>
+        <nav class="socials nav-navs"><ul><li>
+                        <a class="nav-links no-hover-padding social" rel="" 
+
+ href="https://parth.github.io/parth.cafe/atom.xml">
+                        <img loading="lazy" alt="feed" title="feed" src="https://parth.github.io/parth.cafe/social_icons/rss.svg">
+                        </a>
+                    </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://github.com/parth/">
+                                    <img loading="lazy" alt="github" title="github" src="https://parth.github.io/parth.cafe/social_icons/github.svg">
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://instagram.com/mehrotraparth">
+                                    <img loading="lazy" alt="instagram" title="instagram" src="https://parth.github.io/parth.cafe/social_icons/instagram.svg">
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://www.youtube.com/@ParthMehrotra">
+                                    <img loading="lazy" alt="youtube" title="youtube" src="https://parth.github.io/parth.cafe/social_icons/youtube.svg">
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="nav-links no-hover-padding social" rel=" me" 
+
+ href="https://open.spotify.com/user/1246406255?si=74cbe323cc604663">
+                                    <img loading="lazy" alt="spotify" title="spotify" src="https://parth.github.io/parth.cafe/social_icons/spotify.svg">
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            
+        </nav>
+
+        
+        <nav class="nav-navs">
+        </nav>
+
+    </section>
+
+    <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+    <h1 id="modalTitle" class="visually-hidden">Search</h1>
+    <div id="modal-content">
+        <div id="searchBar">
+            <div class="search-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                    <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                </svg>
+            </div>
+            <input id="searchInput" role="combobox" autocomplete="off" spellcheck="false" aria-expanded="false" aria-controls="results-container" placeholder="Search…"/>
+            <div id="clear-search" class="close-icon interactive-icon" tabindex="0" role="button" title="Clear search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </div>
+        </div>
+        <div id="results-container">
+            <div id="results-info"><span id="zero_results"> No results</span>
+                <span id="one_results"> $NUMBER result</span>
+                <span id="many_results"> $NUMBER results</span><span id="two_results"> $NUMBER results</span>
+                <span id="few_results"> $NUMBER results</span>
+            </div>
+            <div id="results" role="listbox"></div>
+        </div>
+    </div>
+</div>
+</footer>
+
+</body>
+
+</html>
