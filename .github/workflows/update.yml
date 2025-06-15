@@ -22,10 +22,7 @@ jobs:
           lockbook sync
       - name: update content
         run: |
-          rm -rf parth.cafe content
-          mkdir content
-          lockbook export parth.cafe .
-          mv parth.cafe/* content
+          ./update-content.sh
       - name: commit changes
         run: |
           git config user.name "github-actions[bot]"

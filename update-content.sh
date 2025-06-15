@@ -1,8 +1,6 @@
 #!/bin/sh
 
 lockbook sync
-rm -rf parth.cafe
-rm -rf content
-mkdir content
+rm -rf src
 lockbook export parth.cafe .
-mv parth.cafe/* content
+mv parth.cafe src
