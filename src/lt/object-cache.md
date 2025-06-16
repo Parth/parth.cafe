@@ -11,25 +11,25 @@ Always:
 5. [modl bracelet](https://modl.com/products/infinity-tool-modular-straps-2-0?srsltid=AfmBOoo3hCofqgtLpXPNtXO1L3-5cBrk2ZF7UPQgi4xtGMTA4VXzbdK-)
 
 Sometimes:
-1. [Flashlight](https://www.amazon.com/Fenix-Keychain-Flashlight-Rechargeable-Organizer/dp/B0BZTC68JP/ref=sr_1_6_pp?crid=1H0X39703RA52&dib=eyJ2IjoiMSJ9.ghhNsBJVA8g8BW-koCLCm6D1IUlOI8F-WcnHV8QsZhjDWGl06eBspHPS6pJ6WXaoExAm1YVeKlklMiEMJ3WgXSmH3UieEMA4NrIvmvB6rI5AGIYdi3ayHbCIcLDrvkCvOrtkG9Gp6ouuXMGPT2Q65rYjl1mqGg8zeLldj2eUweSJIwGy1iJh_nDoEoeKxQACamg-vj6yoIRqa_QROHC6be7Rbn2xtk6FxxB4PZZ960Nu7S5R2Xygemqk88GaoYUr9_yACYDHzEIkHIxnM709DPeqN2BFcabo1PDKMFDHJIA.dpqgux3Fc1a8M9Qp2jnVo5FTLxmfg_2YY7S8yMZV1Y4&dib_tag=se&keywords=fenix%2Bred%2Blight&qid=1750099279&sprefix=fenix%2Bred%2Blight%2Caps%2C93&sr=8-6&th=1)
-2. Tiny Notebook
-3. Handgun
++ [Flashlight](https://www.amazon.com/Fenix-Keychain-Flashlight-Rechargeable-Organizer/dp/B0BZTC68JP/ref=sr_1_6_pp?crid=1H0X39703RA52&dib=eyJ2IjoiMSJ9.ghhNsBJVA8g8BW-koCLCm6D1IUlOI8F-WcnHV8QsZhjDWGl06eBspHPS6pJ6WXaoExAm1YVeKlklMiEMJ3WgXSmH3UieEMA4NrIvmvB6rI5AGIYdi3ayHbCIcLDrvkCvOrtkG9Gp6ouuXMGPT2Q65rYjl1mqGg8zeLldj2eUweSJIwGy1iJh_nDoEoeKxQACamg-vj6yoIRqa_QROHC6be7Rbn2xtk6FxxB4PZZ960Nu7S5R2Xygemqk88GaoYUr9_yACYDHzEIkHIxnM709DPeqN2BFcabo1PDKMFDHJIA.dpqgux3Fc1a8M9Qp2jnVo5FTLxmfg_2YY7S8yMZV1Y4&dib_tag=se&keywords=fenix%2Bred%2Blight&qid=1750099279&sprefix=fenix%2Bred%2Blight%2Caps%2C93&sr=8-6&th=1)
++ Tiny Notebook
++ Handgun
 
 ## L2 [Backpack](https://www.amazon.com/Maxpedition-0513B-Falcon-II-Backpack-Black/dp/B0013AXY54/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.59b20fae-6567-4931-bbdf-becb1c92fa78%3Aamzn1.sym.59b20fae-6567-4931-bbdf-becb1c92fa78&crid=H90PU0W3Y0X8&cv_ct_cx=maxpedition&keywords=maxpedition&pd_rd_i=B0013AXY54&pd_rd_r=045ed100-d225-4064-bdcd-4cccda74b279&pd_rd_w=5neZ7&pd_rd_wg=HAxYC&pf_rd_p=59b20fae-6567-4931-bbdf-becb1c92fa78&pf_rd_r=PYR2EWRZR3K7CRDZQHCQ&qid=1750099590&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=maxpedition%2Caps%2C112&sr=1-4-7efdef4d-9875-47e1-927f-8c2c1c47ed49-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1)
 Always:
-- mbp
-- iPad (mini / pro)
-- [charger + battery](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
-- 2-3 usb-c cables
-- airpods
-- [flashlight](https://www.amazon.com/dp/B0947FJ7M6?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=342WXTJG0SPIR&amp=&sprefix=fen)
-- [multitool](https://www.leatherman.com/products/arc?variant=43009468334173&view=min&gad_source=1&gad_campaignid=20389713070&gbraid=0AAAAADpwN2GVuc9_DKZP_4vaYBAZyP87m&gclid=CjwKCAjwgb_CBhBMEiwA0p3oOMccbjQMO8geXGPuKaFuOpgfBS7-4_mcozWxf8M0Ydo2yBBz1SKCHBoCsA4QAvD_BwE)
-- gum
-- hand-wipes
-+ summer: packable rain layer
-- winter: packable down layer
+1. mbp
+2. iPad (mini / pro)
+3. [charger + battery](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
+4. 2-3 usb-c cables
+5. airpods
+6. [flashlight](https://www.amazon.com/dp/B0947FJ7M6?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=342WXTJG0SPIR&amp=&sprefix=fen)
+7. [multitool](https://www.leatherman.com/products/arc?variant=43009468334173&view=min&gad_source=1&gad_campaignid=20389713070&gbraid=0AAAAADpwN2GVuc9_DKZP_4vaYBAZyP87m&gclid=CjwKCAjwgb_CBhBMEiwA0p3oOMccbjQMO8geXGPuKaFuOpgfBS7-4_mcozWxf8M0Ydo2yBBz1SKCHBoCsA4QAvD_BwE)
+8. gum
+9. hand-wipes
+10. summer: packable rain layer / winter: packable down layer
 
 Sometimes:
+
 + handgun
 - toiletry kit
 - Yeti water bottle (small, medium) * (clear, insulated)
@@ -42,5 +42,10 @@ Always:
 - Hand Winch
 - 2 gallons of spare fuel
 - Multiple [chargers + batteries plugged in by default](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
+- Lighting & Usb C cables
 - Toiletry Kit & Change of clothes
+- Extension chords
 - 1+ gallon of water
+
+Sometimes:
+- snow chains
