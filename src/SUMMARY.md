@@ -17,8 +17,8 @@
 - [Multimedia Within Lockbook](lb/multimedia.md)
 
 # Wrenching
-+ [The Miata](wrenching/future-race-car.md)
-	+ [Taking Stock of our Purchase](wrenching/taking-stock-of-our-purchase.md)
-	+ [Updating the Interior](wrenching/updating-the-interior.md)
-	+ [Windshield and Windows](wrenching/windshield-repair.md)
-	+ [Autocross 2023](wrenching/Autocross2023.md)
++ [The Miata](wrenching/miata/future-race-car.md)
+	+ [Taking Stock of our Purchase](wrenching/miata/taking-stock-of-our-purchase.md)
+	+ [Updating the Interior](wrenching/miata/updating-the-interior.md)
+	+ [Windshield and Windows](wrenching/miata/windshield-repair.md)
+	+ [Autocross 2023](wrenching/miata/Autocross2023.md)
