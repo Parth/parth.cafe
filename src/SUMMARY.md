@@ -2,22 +2,22 @@
 [Welcome](welcome.md)
 
 # General Programming
-- [What you see](gp/what-you-see.md)
-- [ideation](gp/ideation.md)
-- [system design](gp/system-design.md)
+- [How do you see the world?](gp/what-you-see.md)
+- [Ideation](gp/ideation.md)
+- [System Design](gp/system-design.md)
 
 # Lockbook
-- [introducing lockbook](lb/introducing-lockbook.md)
-- [core](lb/core.md)
+- [Introducing Lockbook](lb/introducing-lockbook.md)
+- [Why Lockbook Choose Rust](lb/core.md)
 - [db-rs](lb/db-rs.md)
-- [editor](lb/editor.md)
-- [defect-finder](lb/test-simulator.md)
-- [creating a sick CLI](lb/creating-a-sick-cli.md)
-- [multimedia within lockbook](lb/multimedia.md)
+- [Lockbook's Editor](lb/editor.md)
+- [Automated Defect Hunting](lb/test-simulator.md)
+- [Creating a Sick CLI](lb/creating-a-sick-cli.md)
+- [Multimedia Within Lockbook](lb/multimedia.md)
 
 # Miata
-+ [future race car](miata/future-race-car.md)
-+ [taking stock of our purchase](miata/taking-stock-of-our-purchase.md)
-+ [updating the interior](miata/updating-the-interior.md)
-+ [glass focus](miata/windshield-repair.md)
-+ [autocross 2023](miata/Autocross2023.md)
++ [Buying a Future Racecar](miata/future-race-car.md)
++ [Taking Stock of our Purchase](miata/taking-stock-of-our-purchase.md)
++ [Updating the Interior](miata/updating-the-interior.md)
++ [Windshield and Windows](miata/windshield-repair.md)
++ [Autocross 2023](miata/Autocross2023.md)
