@@ -17,15 +17,15 @@ Sometimes:
 
 ## L2 [Backpack](https://www.amazon.com/Maxpedition-0513B-Falcon-II-Backpack-Black/dp/B0013AXY54/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.59b20fae-6567-4931-bbdf-becb1c92fa78%3Aamzn1.sym.59b20fae-6567-4931-bbdf-becb1c92fa78&crid=H90PU0W3Y0X8&cv_ct_cx=maxpedition&keywords=maxpedition&pd_rd_i=B0013AXY54&pd_rd_r=045ed100-d225-4064-bdcd-4cccda74b279&pd_rd_w=5neZ7&pd_rd_wg=HAxYC&pf_rd_p=59b20fae-6567-4931-bbdf-becb1c92fa78&pf_rd_r=PYR2EWRZR3K7CRDZQHCQ&qid=1750099590&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=maxpedition%2Caps%2C112&sr=1-4-7efdef4d-9875-47e1-927f-8c2c1c47ed49-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1)
 Always:
-- MBP
+- mbp
 - iPad (mini / pro)
 - [charger + battery](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
 - 2-3 usb-c cables
-- Airpods
-- [Flashlight](https://www.amazon.com/dp/B0947FJ7M6?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=342WXTJG0SPIR&amp=&sprefix=fen)
-- [Multitool](https://www.leatherman.com/products/arc?variant=43009468334173&view=min&gad_source=1&gad_campaignid=20389713070&gbraid=0AAAAADpwN2GVuc9_DKZP_4vaYBAZyP87m&gclid=CjwKCAjwgb_CBhBMEiwA0p3oOMccbjQMO8geXGPuKaFuOpgfBS7-4_mcozWxf8M0Ydo2yBBz1SKCHBoCsA4QAvD_BwE)
-- Gum
-- Hand-wipes
+- airpods
+- [flashlight](https://www.amazon.com/dp/B0947FJ7M6?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=342WXTJG0SPIR&amp=&sprefix=fen)
+- [multitool](https://www.leatherman.com/products/arc?variant=43009468334173&view=min&gad_source=1&gad_campaignid=20389713070&gbraid=0AAAAADpwN2GVuc9_DKZP_4vaYBAZyP87m&gclid=CjwKCAjwgb_CBhBMEiwA0p3oOMccbjQMO8geXGPuKaFuOpgfBS7-4_mcozWxf8M0Ydo2yBBz1SKCHBoCsA4QAvD_BwE)
+- gum
+- hand-wipes
 + summer: packable rain layer
 - winter: packable down layer
 
@@ -33,4 +33,14 @@ Sometimes:
 + handgun
 - toiletry kit
 - Yeti water bottle (small, medium) * (clear, insulated)
++ water bladder
 
+## L3 Truck: 2017 F150 XLT SuperCrew
+Always:
+- Recovery gear
+- Jump start pack
+- Hand Winch
+- 2 gallons of spare fuel
+- Multiple [chargers + batteries plugged in by default](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
+- Toiletry Kit & Change of clothes
+- 1+ gallon of water
