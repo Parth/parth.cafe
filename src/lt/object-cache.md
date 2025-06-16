@@ -41,6 +41,7 @@ center console / interior:
 - Lighting & Usb C cables
 - First aid and Trauma Kit
 - [Travel Toolkit](../wrenching/small-toolkit.md)
+- Umbrella
 
 under-seat:
 + 8 [retractable ratchet straps](https://www.amazon.com/dp/B0BTFDW571?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1)
