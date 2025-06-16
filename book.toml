@@ -3,3 +3,7 @@ authors = ["parth"]
 language = "en"
 src = "src"
 title = "parth.cafe"
+
+[output.html]
+default-theme = "Rust"
+preferred-dark-theme = "Ayu"
