@@ -1,12 +1,3 @@
-+++
-title = "Building a race car."
-date = 2023-08-23T19:32:33-05:00
-draft = false
-
-[taxonomies]
-tags = ["wrenching", "miata"]
-+++
-
 # future race car
 
 I’ve enjoyed a number of exciting vehicles so far. I’ve owned some motorcycles, off-road vehicles, and performance-oriented cars. I’ve modified most of these and I’ve been to the track a handful of times. Both of these things made me curious about building a dedicated track car. I’ve particularly been drawn to cars with such a rich aftermarket that they’re called platforms.
