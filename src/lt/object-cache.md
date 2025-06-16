@@ -40,13 +40,16 @@ center console / interior:
 - Multiple [chargers + batteries plugged in by default](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
 - Lighting & Usb C cables
 
+under-seat:
++ 8 [retractable ratchet straps](https://www.amazon.com/dp/B0BTFDW571?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1)
+
+truck bed (Organized via [Molle panels](https://builtrightind.com/products/bedside-rack-molle-panel-system-ford-f-150-raptor-lightning) + [dry bags](https://www.amazon.com/dp/B01M187XEB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_26&th=1)):
+- Toiletry Kit & Change of clothes
 - Recovery gear
 - Hand Winch
 - 2 gallons backup fuel
-- Toiletry Kit & Change of clothes
 - Extension chords
 - 1+ gallon of water
-- 8 [retractable ratchet straps](https://www.amazon.com/dp/B0BTFDW571?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1)
 - First aid and Trauma Kit
 
 Sometimes:
