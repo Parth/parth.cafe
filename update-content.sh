@@ -1,6 +1,7 @@
 #!/bin/sh
 
+pwd
 lockbook sync
-rm -rf src
 lockbook export parth.cafe .
+rm -rf src
 mv parth.cafe src
