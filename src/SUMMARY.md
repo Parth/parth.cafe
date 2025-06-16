@@ -22,6 +22,7 @@
 	+ [Updating the Interior](wrenching/miata/updating-the-interior.md)
 	+ [Windshield and Windows](wrenching/miata/windshield-repair.md)
 	+ [Autocross 2023](wrenching/miata/Autocross2023.md)
++ [Small Toolkit](wrenching/small-toolkit.md)
 
 # Life Tracking
 + [Object Cache](lt/object-cache.md)

@@ -40,6 +40,7 @@ center console / interior:
 - Multiple [chargers + batteries plugged in by default](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
 - Lighting & Usb C cables
 - First aid and Trauma Kit
+- [Travel Toolkit](../wrenching/small-toolkit.md)
 
 under-seat:
 + 8 [retractable ratchet straps](https://www.amazon.com/dp/B0BTFDW571?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1)
@@ -58,3 +59,9 @@ truck bed (Organized via [Molle panels](https://builtrightind.com/products/bedsi
 - 1+ gallon of water
 - Tire inflator
 - snow chains
+- dog bag
+	- Extra leash
+	+ Extra harness
+	+ Extra treats
+	+ Poop bags
+	+ Water bowl
