@@ -39,14 +39,15 @@ center console / interior:
 - Jump start pack
 - Multiple [chargers + batteries plugged in by default](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
 - Lighting & Usb C cables
+- First aid and Trauma Kit
 
 under-seat:
 + 8 [retractable ratchet straps](https://www.amazon.com/dp/B0BTFDW571?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1)
 + twine
-+ extension chords
++ extension chord
 
 in-doors:
-+ gloves
++ [gloves](https://www.amazon.com/dp/B09GV6LCYX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 + tiny water bottles
 
 truck bed (Organized via [Molle panels](https://builtrightind.com/products/bedside-rack-molle-panel-system-ford-f-150-raptor-lightning) + [dry bags](https://www.amazon.com/dp/B01M187XEB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_26&th=1)):
@@ -55,7 +56,5 @@ truck bed (Organized via [Molle panels](https://builtrightind.com/products/bedsi
 - Hand Winch
 - 2 gallons backup fuel
 - 1+ gallon of water
-- First aid and Trauma Kit
-
-Sometimes:
+- Tire inflator
 - snow chains
