@@ -23,6 +23,8 @@ jobs:
           echo `pwd`/mdbook >> $GITHUB_PATH
       - name: Build Book
         run: |
+          git checkout master
+          git pull origin master
           mdbook build
       - name: Setup Pages
         uses: actions/configure-pages@v4
