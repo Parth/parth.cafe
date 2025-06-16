@@ -18,4 +18,4 @@ Some handy links:
 - [Youtube: @ParthMehrotra](https://www.youtube.com/@ParthMehrotra)
 - [Spotify](https://open.spotify.com/user/1246406255?si=74cbe323cc604663)
 
- This whole site is literally just a folder in my Lockbook that I edit as I experience existence. A tiny [Github Actions](https://github.com/Parth/parth.cafe/tree/master/.github/workflows) script builds an [MdBook](https://rust-lang.github.io/mdBook/) and publishes it to [Github Pages](https://pages.github.com/). 
+This whole site is literally just a folder in my Lockbook that I edit as I experience existence. A tiny [Github Actions](https://github.com/Parth/parth.cafe/tree/master/.github/workflows) script builds an [MdBook](https://rust-lang.github.io/mdBook/) and publishes it to [Github Pages](https://pages.github.com/). 
