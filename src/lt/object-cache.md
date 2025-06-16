@@ -29,23 +29,25 @@ Always:
 10. summer: packable rain layer / winter: packable down layer
 
 Sometimes:
-
 + handgun
-- toiletry kit
-- Yeti water bottle (small, medium) * (clear, insulated)
++ toiletry kit
++ Yeti water bottle (small, medium) * (clear, insulated)
 + water bladder
 
 ## L3 Truck: 2017 F150 XLT SuperCrew
-Always:
-- Recovery gear
+center console / interior:
 - Jump start pack
-- Hand Winch
-- 2 gallons of spare fuel
 - Multiple [chargers + batteries plugged in by default](https://www.amazon.com/dp/B0CZ9J3QMY?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
 - Lighting & Usb C cables
+
+- Recovery gear
+- Hand Winch
+- 2 gallons backup fuel
 - Toiletry Kit & Change of clothes
 - Extension chords
 - 1+ gallon of water
+- 8 [retractable ratchet straps](https://www.amazon.com/dp/B0BTFDW571?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4&th=1)
+- First aid and Trauma Kit
 
 Sometimes:
 - snow chains
