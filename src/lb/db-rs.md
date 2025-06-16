@@ -1,12 +1,3 @@
-+++
-title = "db-rs"
-date = 2023-04-19T18:11:19-04:00
-draft = false
-
-[taxonomies]
-tags = ["lockbook", "programming"]
-+++
-
 # db-rs
 
 *The story of how Lockbook created its own database for speed and productivity.*

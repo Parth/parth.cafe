@@ -1,12 +1,3 @@
-+++
-title = "Creating a SICK CLI"
-date = 2023-10-11T18:11:19-04:00
-draft = false
-
-[taxonomies]
-tags = ["lockbook", "programming"]
-+++
-
 # Creating a SICK CLI
 
 At [Lockbook](introducing-lockbook.md) we strongly believe in [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food). So we knew alongside a great, native, markdown editing experience we would want a _sick_ CLI. Having a _sick_ CLI creates interesting opportunities for a niche type of user who is familiar with a terminal environment:
@@ -25,6 +16,8 @@ In this post I’m going to tackle 3 topics:
 # What makes a CLI _sick_? 
 It’s tab completions. For me, tab completions are what I use to initially explore what a CLI can do. Later, if the CLI is _sick_, I use tab completions to speed up my workflow. I don’t just want to tab complete the structure of the CLI (subcommands and flags). I want to tab complete dynamic values, in Lockbook's case, this means completing file paths and IDs.
 
+![pasted_image_2025-06-16_02-03-26.png](imports/pasted_image_2025-06-16_02-03-26.png)
+![pasted_image_2025-06-16_02-03-48.png](imports/pasted_image_2025-06-16_02-03-48.png)
 If you're creating a CLI most libraries make you choose between a few bad options:
 * Hand-craft completion files for each shell.
 * Sacrifice dynamic completions and just settle for automatically generated static completions.
@@ -33,9 +26,11 @@ Rust is no exception here, `clap` has some support for static completions, but n
 
 And so we set out to solve this problem for the Rust ecosystem, and created `cli-rs`. A parsing library, similar to `clap` but with explicit design priorities around creating a great tab completion experience. As soon as `cli-rs` was stable enough we re-wrote `lockbook`'s CLI using it so we could pass on these gains to our users. 
 
+![pasted_image_2025-06-16_02-04-12.png](imports/pasted_image_2025-06-16_02-04-12.png)
+![pasted_image_2025-06-16_02-04-27.png](imports/pasted_image_2025-06-16_02-04-27.png)
 Cli-rs is simple, you describe your CLI like this:
 
-```
+```rust
 Command::name("lockbook")
     .description("The private, polished note-taking platform.") 
     .version(env!("CARGO_PKG_VERSION"))
@@ -68,6 +63,8 @@ We also invested a ton of effort in the infrastructure that deploys our CLI to o
 
 You can `lockbook edit` any path you have access to and our CLI will invoke `vim`, utilizing any custom `.vimrc` that may exist. You can override the selected editor by setting the `LOCKBOOK_EDITOR` env var or using the `--editor` flag. So far we support `vim`, `nvim`, `subl`, `code`, `emacs` and `nano`.
 
+![pasted_image_2025-06-16_02-05-06.png](imports/pasted_image_2025-06-16_02-05-06.png)
+
 If we don’t support your favorite editor, send us a PR or hop in our [discord](TODO) and tell us.
 
 ## Extending Lockbook
@@ -75,6 +72,8 @@ If we don’t support your favorite editor, send us a PR or hop in our [discord]
 We want Lockbook to be maximally extensible, this extensibility will take many forms, one of which is our CLI. Let's explore some of the interesting things you can accomplish with our CLI. 
 
 Let’s say you wanted a snapshot of everything in your second brain decrypted and without any proprietary format for tin-foil-hat backup reasons. You can easily set a `cron` that will simply `lockbook sync` and `lockbook backup` however often you want. `lockbook export` can be used to write any folder or document from Lockbook to your file system, paving the way for automated updates of a blog. Edit a note on your phone, and see the change live on your blog in seconds. `lockbook import` lets you do the opposite. Want to continuously back up a folder from your computer to Lockbook? Setup a `cron` that will simply `Lockbook import` and then `lockbook sync`.
+
+![pasted_image_2025-06-16_02-05-37.png](imports/pasted_image_2025-06-16_02-05-37.png)
 
 ## Ultra secure
 

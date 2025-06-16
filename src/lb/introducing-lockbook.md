@@ -1,12 +1,3 @@
-+++
-title = "Introducing Lockbook"
-date = 2022-10-29T18:11:19-04:00
-draft = false
-
-[taxonomies]
-tags = ["lockbook", "programming"]
-+++
-
 # A new note-taking app
 
 Many moons ago my friends and I found ourselves frustrated with our computing experience. Our most important tools: our messengers, our note-taking apps, and our file storage all seemed to leave us with the same bitter taste in our mouths. Most of the mainstream solutions were trapped inside a browser, the epitome of sacrificing quality for the lowest common denominator. They didn't pass muster for basic security and privacy concerns. Building on top of these systems was a painful experience. We were also growing concerned that we did not share the same ethics and values as the large companies running these platforms.

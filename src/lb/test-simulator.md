@@ -1,27 +1,19 @@
-+++
-title = "Defect Finder"
-date = 2023-08-24T18:11:19-04:00
-draft = false
-
-[taxonomies]
-tags = ["lockbook", "programming"]
-+++
-
 # Defect hunting
 
-When designing Lockbook we knew we wanted to support a great offline experience. To our surprise, this grew to become one of the largest areas of complexity. Forming consensus is an active area of research in computer science, but Lockbook has an additional constraint. Unlike our competition, large areas of complexity take place on [our user’s devices] that can't update remotely. Additionally, the administrative action we can take is limited: most data entered by users is encrypted, and their devices will reject changes that aren’t signed by people they trust. All this is to say that the cost of error is higher for our team and it’ll likely take longer for our software to mature and reach stability. Today I’d like to share a tester we created to help us find defects and accelerate the maturation process. We affectionately called this tester “the fuzzer”. We’ll explore whether this is a good name a bit later, but first, let’s talk about the sorts of problems we’re trying to detect. 
+When designing [Lockbook](introducing-lockbook.md) we knew we wanted to support a great offline experience. To our surprise, this grew to become one of the largest areas of complexity. Forming consensus is an active area of research in computer science, but Lockbook has an additional constraint. Unlike our competition, large areas of complexity take place on [our user’s devices](core.md) that can't update remotely. Additionally, the administrative action we can take is limited: most data entered by users is encrypted, and their devices will reject changes that aren’t signed by people they trust. All this is to say that the cost of error is higher for our team and it’ll likely take longer for our software to mature and reach stability. Today I’d like to share a tester we created to help us find defects and accelerate the maturation process. We affectionately called this tester “the fuzzer”. We’ll explore whether this is a good name a bit later, but first, let’s talk about the sorts of problems we’re trying to detect. 
 
 Users should be able to do mostly anything offline, so what happens if, say Alice moves a document and Bob renames that document while they were both offline? What happens if they both move a folder? Both edit the same document? What if that document isn’t plain text? What if Alice moves folder A into B, and Bob moves folder B into A? 
 
+![pasted_image_2025-06-16_01-56-11.png](imports/pasted_image_2025-06-16_01-56-11.png)
+
 Some of these things can be resolved seamlessly while others may require user intervention. Some of the resolution strategies are complicated and error-prone. The fuzzer ensures regardless of what steps a user (or their device) takes various components of our architecture always remain in a sensible state. Let me share some examples:
-
-Regardless of who moved what files and when, we want to make sure that your file trees never have any cycles.
-
-No folder should have two files with the same name. Creating files, renaming files, and moving files could cause two files in a given location to share a name. 
-
-Actions that change a file's path or sharees could change how our cryptography algorithms search for a file's decryption key, we want to make sure for the total domain of actions your files are always decryptable by you.
++ Regardless of who moved what files and when, we want to make sure that your file trees never have any cycles.
++ No folder should have two files with the same name. Creating files, renaming files, and moving files could cause two files in a given location to share a name. 
++ Actions that change a file's path or sharees could change how our cryptography algorithms search for a file's decryption key, we want to make sure for the total domain of actions your files are always decryptable by you.
 
 As we used our platform we've collected many such _validations_ that we want to ensure never occur for the global set of actions on our platform, and the fuzzer's job is to spit out test cases that violate these constraints. It does this by enumerating all the (significant) actions a user can take on the platform across N devices and with M collaborators. It randomly selects from this space and at each step it asks all parts of our system to make sure everything is still as it should be. It does this process in parallel fully utilizing a given machine's parallel computational resources. It travels through the search space in a manner that limits the amount of recomputation of known good states, fully utilizing a given machine's memory. 
+
+![pasted_image_2025-06-16_02-01-05.png](imports/pasted_image_2025-06-16_02-01-05.png)
 
 Generally when people say they're _fuzzing_, they mean handing a given function or user input randomized input to try to produce a failure. Our _fuzzer_ captures that spirit of this but is different enough that plenty of people have raised an eyebrow when I told them we call this process _fuzzing_. Unfortunately **test simulator** isn't as cool a name, knowing what this process is now, if you can think of a cool name, do tell us.
 

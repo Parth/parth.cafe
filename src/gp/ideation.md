@@ -1,15 +1,8 @@
-+++
-title = "Ideation"
-date = 2020-05-12T18:11:19-04:00
-draft = false
-
-[taxonomies]
-tags = ["programming"]
-+++
+# Ideation
 
 Over the last 10 years I've gone through the process of ideation, execution and delivery countless times. I'd like to share some lessons I've learned and how I think about projects today.
 
-# The Idea
+## The Idea
 
 It's hard to evaluate how important an idea is relative to execution and presentation. 
 
