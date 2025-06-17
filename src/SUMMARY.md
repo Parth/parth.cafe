@@ -25,5 +25,6 @@
 + [Small Toolkit](wrenching/small-toolkit.md)
 
 # Life Tracking
++ [Books](lt/books.md)
 + [Object Cache](lt/object-cache.md)
 + [Uniform](lt/uniform.md)
