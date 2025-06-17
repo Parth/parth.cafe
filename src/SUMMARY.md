@@ -15,6 +15,7 @@
 - [Automated Defect Hunting](lb/test-simulator.md)
 - [Creating a Sick CLI](lb/creating-a-sick-cli.md)
 - [Multimedia Within Lockbook](lb/multimedia.md)
+- [OpSec FAQ](lb/OpSeqFAQ.md)
 
 # Wrenching
 + [The Miata](wrenching/miata/future-race-car.md)
