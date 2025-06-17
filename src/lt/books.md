@@ -28,4 +28,10 @@ Interestingly for Rutgers BS CS there was no required reading. And I was pretty 
 * Fahrenheit 451
 * The Big Short
 
-At the time I was 
+At the time I was an intern at SAP, a pretty large software company (comparable to Oracle in lots of ways) and I was working on a Robotics oriented startup. I was hungry to learn the processs of novel-value creation and spent a lot of time reflecting on what *human progress* actually means. As I generally gained confidence in myself I was actively trying to determine where I wanted my career to head. Did I want to try to be an entrepreneur? An academic? A politician? A highly paid software engineer?
+I started to form the desire to zoom out and understand the bigger picture more deeply, I think this desire was probably sparked after reading Black Swan.
+Towards year 3 & 4 of college it seemed like political tensions were also on the rise, and as far as I can tell, henceforth it's always felt that way. I wonder, has it just always been that way, and it's just my awareness that's changing. Anyways I also wanted to *be good* in the grand scheme of things and I was humble enough to know that it's not clear how to do that. 
+I was open to utilitarian ideas of effective altruism, spritiual ideas of just being the best version of yourself, and 
+
+- 12 Rules for Life
+- 
