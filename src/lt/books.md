@@ -76,6 +76,53 @@ Gemini also re-ignited the idea that programming is a craft.
 
 ## After Gemini
 
-At this point I was trying 
+I was captured by the idea that some stories are *deeper* than others. A book like Harry Potter has it's roots in the Cristian tradition. I had a desire to go to *the source* and read *deeper* content.
 
-- Siddhartha
+- **Siddhartha**
+- Moby Dick
+- 2001 A Space Odyssey
+- Crime and Punishment
+- Anna Karenina
+- **East of Eden**
+- Name Place Animal Thing
+- **Bhagavad Gita**
+- Plato
+- Old Testiment
+- Lolita
+
+## 2025 onwards
+
+It's hard and maybe not in my best interest to form a narritive about things that I'm actively reading, I sorta just want to read whatever interest me the most, but they'll continue to be listed here:
+- Count of Monte Cristo
+
+# Reading Backlog
+If someone recomends a book to me, it ends up here:
+
+- The Gulag Archipelago
+- Mountains Beyond Mountains (Carolyn)
++ The Machiavellians: Malice
++ A renegade history of the united states: Malice
++ Dear Reader: Malice
++ When Genius Failed: Steve, Swanson
++ Society of mind: Lee
++ GEB: Sid
++ Win firends Influence People
++ Origin of species
++ Ben franklin
++ War of art: Dahlia
++ Ordinary Men: Peterson
++ Paradise Lost: Peterson
++ Panzram Journal of: Peterson
++ Discovery of unconscious: Peterson
++ Interpretation of dreams: Peterson
++ Miracle morning: Steve
++ Sleep: Raayan
++ A mind for numbers: Alan
++ Creature from Jekyll Island: Steve
++ The day of the Jackal thriller: Dad
++ The golden gate: Dad
++ Arthur C Clarke moondust: Dad
++ Asimov robot short stories: Dad
++ Pg Wodehouse J&W: Dad
++ Tao te Ching Raayan 
++ The mom test: Lee
