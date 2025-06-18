@@ -51,6 +51,7 @@ under-seat:
 in-doors:
 + [gloves](https://www.amazon.com/dp/B09GV6LCYX?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 + tiny water bottles
++ towels
 
 truck bed (Organized via [Molle panels](https://builtrightind.com/products/bedside-rack-molle-panel-system-ford-f-150-raptor-lightning) + [dry bags](https://www.amazon.com/dp/B01M187XEB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_26&th=1)):
 - Toiletry Kit & Change of clothes
