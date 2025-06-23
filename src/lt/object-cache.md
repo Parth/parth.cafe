@@ -1,6 +1,6 @@
 # Object Cache
 
-I find myself in a tension between my desire to stay minimal and prepared. After I described my behavior my best friend compared it to a cache from CS, and that mental model stuck with me.
+I find myself in a tension between my desire to stay minimal and prepared. After I described my behavior my best friend compared it to a cache from CS, and that mental model stuck with me. This structure implies a nesting, I wouldn't be in my car without my backpack. 
 
 ## L1 Body
 Always:
