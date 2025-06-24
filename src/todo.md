@@ -5,6 +5,7 @@
 * [ ] watches
 * [ ] garage
 * [ ] other vehicle history
+* [ ] bitcoin
 
 # watches
 + [ ] Dimensions
