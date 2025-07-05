@@ -4,6 +4,7 @@
 3. Be able to touch the bottom of the pool with both hands at height depth
 4. Be able to dive into a deep pool head first
 5. Be able to recover an object at the bottom of a deep pool
+5. Be able to jump into a body of water from a height of over 10ft
 6. Be able to swim efficiently and quickly for long distances (100m-1km) 
 7. Be able to swim under water for 25m
 8. Be able to swim in the ocean
