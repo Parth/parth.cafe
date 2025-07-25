@@ -1,4 +1,5 @@
 + Khalid
++ Dada Life
 + Rezz
 + Lumineers 2
 + Billy strings 
