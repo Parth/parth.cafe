@@ -18,7 +18,7 @@
 - [OpSec FAQ](lb/OpSeqFAQ.md)
 
 # Wrenching
-+ [Wrenching Levels](wrenching-levels.md)
++ [Wrenching Levels](wrenching/wrenching-levels.md)
 + [Vehicle Timeline](wrenching/vehicle-timeline.md)
 + [The Miata](wrenching/miata/future-race-car.md)
   + [Full History](wrenching/miata/miata.md)
