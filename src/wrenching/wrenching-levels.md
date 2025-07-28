@@ -34,11 +34,11 @@ I love working with my hands, and increasing my ability to take on more ambitiou
     + Forum & Youtube centric guided repairs
   + Be able to inspect a car using your senses (sight, smell and ears) to catch problems.
 + Level 7
-  + Be able to accomplish ambitious but well documented modifications, like engine swaps.
+  + Be able to accomplish ambitious but well documented modifications, like engine swaps, turbos, etc.
 + Level 8
   + Transcend the need for community support and be able to accomplish whatever is needed
   + Custom fabrication, welding, 3d modeling likely required skills. 
 + Level 9
   + Manufacture cutting edge machines (like competitive race cars) from (practically) scratch. See *superfastmatt pike's peak videos* for more details. 
 
-Presently I reached Level 5 and aspire to reach Level 6 using the [miata](miata/taking-stock-of-our-purchase.md) as an educational platform.
+Presently I reached Level 6 and aspire to reach Level 7 using the [miata](miata/taking-stock-of-our-purchase.md) as an educational platform.
