@@ -4,7 +4,7 @@
 + purchased Thursday 9/10/23 for $8,750 @ 112,900 miles
 + 1997 m-edition
 
-![pasted_image_2025-07-28_01-00-00.png](imports/pasted_image_2025-07-28_01-00-00.png)
+![pasted_image_2025-07-28_03-13-01.png](imports/pasted_image_2025-07-28_03-13-01.png)
 
 # Hard top 4-25
 ![pasted_image_2025-07-28_02-11-22.png](imports/pasted_image_2025-07-28_02-11-22.png)
