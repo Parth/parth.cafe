@@ -36,7 +36,7 @@ I love working with my hands, and increasing my ability to take on more ambitiou
 + Level 7
   + Be able to accomplish ambitious but well documented modifications, like engine swaps, turbos, etc.
 + Level 8
-  + Transcend the need for community support and be able to accomplish whatever is needed
+  + Transcend the need for community support and be able to accomplish whatever is needed either with regards to modifications or repair
   + Custom fabrication, welding, 3d modeling likely required skills. 
 + Level 9
   + Manufacture cutting edge machines (like competitive race cars) from (practically) scratch. See *superfastmatt pike's peak videos* for more details. 
