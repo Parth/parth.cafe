@@ -1,12 +1,3 @@
-+++
-title = "Autocross 2024"
-date = 2025-05-29T19:32:33-05:00
-draft = true
-
-[taxonomies]
-tags = ["wrenching", "miata"]
-+++
-
 # Tire & Suspension Upgrades
 - Jun 17 suspension
 - jun 22/23 suspension
