@@ -11,3 +11,4 @@
 + **Tomorrowland**
 + Diljit
 + Karan Aujla
++ A.R. Rahman
