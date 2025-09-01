@@ -12,3 +12,4 @@
 + Diljit
 + Karan Aujla
 + A.R. Rahman
++ Coldplay
