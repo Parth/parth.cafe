@@ -10,8 +10,8 @@ Both motorcycles have [wireless charging heads](https://www.quadlockcase.com/col
 
 The [arm band](https://www.quadlockcase.com/collections/accessories/products/replacement-armband-strap) is nice for running and working around the house.
 
-I am experimenting with the [tripod adapter](https://www.quadlockcase.com/products/tripod-adaptor?srsltid=AfmBOorJgz_Gut2Vm7sA10PF3E2nHMHYNTB_IRq8UmSgGsdzObVEnLs7) for a B cam,.
+I am experimenting with the [tripod adapter](https://www.quadlockcase.com/products/tripod-adaptor?srsltid=AfmBOorJgz_Gut2Vm7sA10PF3E2nHMHYNTB_IRq8UmSgGsdzObVEnLs7) for a B cam.
 
 Also the [ring](https://www.quadlockcase.com/collections/accessories/products/phone-ring-stand) for maybe the most secure way to caribiner a phone to something (tbd) and it's kinda nice to have a 0 cost kick stand and more secure grip on the phone. I just wonder if it's a good way to break or injure a fingure. I also don't want to deal with it whne I need it off (like when I'm in motorcycle gear).
 
-Travis, you may be interestedd: https://www.quadlockcase.com/collections/accessories/products/colored-mag-ring. 
+[Travis, you may be interested in orange.](https://www.quadlockcase.com/collections/accessories/products/colored-mag-ring)
