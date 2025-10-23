@@ -11,7 +11,7 @@ jobs:
       - name: install lockbook
         run: |
           mkdir -p $HOME/bin
-          curl -L https://github.com/lockbook/lockbook/releases/download/0.9.23/lockbook-cli-linux -o $HOME/bin/lockbook
+          curl -L https://github.com/lockbook/lockbook/releases/download/25.10.13/lockbook-cli-linux -o $HOME/bin/lockbook
           chmod +x $HOME/bin/lockbook
           echo "$HOME/bin" >> $GITHUB_PATH
       - name: login to lockbook
