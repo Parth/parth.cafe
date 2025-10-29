@@ -129,3 +129,6 @@ If someone recomends a book to me, it ends up here:
 + Tao te Ching Raayan
 + The mom test: Lee
 + American psycho 
++ .com secrets
++ hundred million dollar offer
++ copywriting secrets 
