@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron:  '0 2,9,16,19,23 * * *'  
+    - cron:  '*/5 * * * *'
 name: update content folder
 jobs:
   build:
@@ -8,6 +8,10 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      - name: Cache Lockbook Data
+        uses: actions/cache@v4
+        with:
+          path: ~/.lockbook
       - name: install lockbook
         run: |
           mkdir -p $HOME/bin
