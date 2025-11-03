@@ -24,7 +24,7 @@ jobs:
         env:
           SECRET: ${{ secrets.LB_ACCOUNT_SECRET }}
         run: |
-          echo $SECRET | lockbook account import
+          echo $SECRET | lockbook account import || echo "ignoring login failure"
           lockbook sync
       - name: update content
         run: |
