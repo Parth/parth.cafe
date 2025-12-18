@@ -97,6 +97,9 @@ It's hard and maybe not in my best interest to form a narritive about things tha
 - Dante's Divine Comedy
 - Ramayana (R.K. Narayan)
 - 2666
+- Fourth Wing
+- Iron Flame
+- Onyx Storm
 
 # Reading Backlog
 If someone recomends a book to me, it ends up here:
