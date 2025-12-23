@@ -91,8 +91,9 @@ I was captured by the idea that some stories are *deeper* than others. A book li
 - Lolita
 
 ## 2025 onwards
-
 It's hard and maybe not in my best interest to form a narritive about things that I'm actively reading, I sorta just want to read whatever interest me the most, but they'll continue to be listed here:
+
+- Re-read: Siddhartha
 - Count of Monte Cristo
 - Dante's Divine Comedy
 - Ramayana (R.K. Narayan)
@@ -100,7 +101,7 @@ It's hard and maybe not in my best interest to form a narritive about things tha
 - Fourth Wing
 - Iron Flame
 - Onyx Storm
-- [Mahabharata]()
+- [Mahabharata](https://a.co/d/2UYyQb3)
 
 # Reading Backlog
 If someone recomends a book to me, it ends up here:
