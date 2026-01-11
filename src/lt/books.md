@@ -103,6 +103,9 @@ It's hard and maybe not in my best interest to form a narritive about things tha
 - Onyx Storm
 - [Mahabharata](https://a.co/d/2UYyQb3)
 
+# 2026
+* The fall
+
 # Reading Backlog
 If someone recomends a book to me, it ends up here:
 
