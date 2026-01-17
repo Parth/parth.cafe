@@ -6,7 +6,7 @@
 
 ![pasted_image_2025-07-28_03-13-01.png](imports/pasted_image_2025-07-28_03-13-01.png)
 
-# Hard top 4-25
+# roll bar 4-25
 ![pasted_image_2025-07-28_02-11-22.png](imports/pasted_image_2025-07-28_02-11-22.png)
 
 # [Suspension and Tires 6-24](Autocross2024.md)
