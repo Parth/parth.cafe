@@ -105,6 +105,9 @@ It's hard and maybe not in my best interest to form a narritive about things tha
 
 # 2026
 * The fall
+* Tell tale heart 
+* Metamorphosis
+* American psycho
 
 # Reading Backlog
 If someone recomends a book to me, it ends up here:

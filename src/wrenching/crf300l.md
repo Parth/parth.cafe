@@ -1,12 +1,11 @@
 ![pasted_image_2025-07-28_00-50-23.png](imports/pasted_image_2025-07-28_00-50-23.png)
 
 # 1700 miles Aug 25
-* Oil changed
-* Test ridinsn. Siri 
+* Oil & filter changed 
 
 # 1600 miles
 + back to dirt form
-+ adventure rally tower 
++ adventure rally tower <!-- {"fold":true} -->
 	+ required heavy modification of the rally tower itself due to a desired re-location of the ignition key that I was not willing to do
 	+ is mounted on 5/6 of the screws and one of the switch panels had to be re-located
 	+ relay tapped into rear brake light as signal + a switch on the rally tower
