@@ -1,8 +1,9 @@
 # Vehicle info
 + vin: `JM1NA3536V0729022`
-+ license: `TODO`
-+ purchased Thursday 9/10/23 for $8,750 @ 112,900 miles
 + 1997 m-edition
+<!--purchased Thursday 9/10/23 for $8,750 @ 112,900 miles-->
+
+[photo-dump](
 
 ![pasted_image_2025-07-28_03-13-01.png](imports/pasted_image_2025-07-28_03-13-01.png)
 
@@ -29,10 +30,6 @@
 + borla exhaust
 + diff and trans
 
-# Outstanding Problems
-+ Hood Squeeky
-+ Exhaust Rattle
-+ Loose Endlink
-+ Check Drains
+# todo
 + Hard Top
 + Drift Tires
