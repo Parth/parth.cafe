@@ -55,4 +55,4 @@ Speaking of donuts, and feel at the edge of traction -- it's actually quite hard
 
 ![pasted_image_2025-04-17_04-59-25.jpg](imports/pasted_image_2025-04-17_04-59-25.jpg)
 
-With fresh brakes, tires, and suspension we went out for another local autocross and.
+With fresh brakes, tires, and suspension we went out for another local autocross and we did quite good. 
