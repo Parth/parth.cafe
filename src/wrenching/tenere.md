@@ -7,11 +7,16 @@ Am in search for most of the fun the CRF has given me, and also more comfort on 
 
 # todo-now
 * [ ] register
-* [ ] ask about 600 mile service
+* [ ] heated grips?
 * [ ] quad lock
-* [ ] battery tender
+* [ ] ask about 600 mile service
+* [ ] hand guards
+* [ ] oil change
 * [ ] spools
 
 # todo-later
-* [ ] crash bars
-* [ ] 
+* [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
+* [ ] extra wheels for knobies?
+
+# todo much later
+* [ ] [plastics](https://www.tmbrmoto.com/collections/rtech/products/rtech-revolution-plastic-body-kit-2025-yamaha-tenere-700?variant=47230584488101)
