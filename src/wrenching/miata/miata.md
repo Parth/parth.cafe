@@ -3,7 +3,7 @@
 + 1997 m-edition
 <!--purchased Thursday 9/10/23 for $8,750 @ 112,900 miles-->
 
-[photo-dump](
+[photo-dump](https://photos.google.com/share/AF1QipOBlPHAnW4SLBLhAgM2QeSxD0VALtNWyD_dNG1Fh_Wk7OyrTNGEJKM1Ugh6sgwcNA?key=R3QyWHhFbmFZWEdkZThjVU9DSzQ4M1BmTTR6TmR3). 
 
 ![pasted_image_2025-07-28_03-13-01.png](imports/pasted_image_2025-07-28_03-13-01.png)
 
