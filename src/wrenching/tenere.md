@@ -7,13 +7,15 @@ Am in search for most of the fun the CRF has given me, and also more comfort on 
 
 # todo-now
 * [ ] register
-* [ ] heated grips?
+* [ ] heated grips
+* [ ] Clutch
 * [ ] quad lock
   * [ ] maybe with [this thing](https://www.revzilla.com/motorcycle/altrider-top-clamp-system-with-amps-yamaha-tenere-700-2021-2025?sku_id=10557004&utm_source=google&utm_medium=cpc&utm_campaign=PLA-Metric%20Parts-PMAX&utm_term=go_cmp-20958281733_adg-_ad-__dev-c_ext-_prd-10557004_mca-2934692_sig-Cj0KCQiAvtzLBhCPARIsALwhxdolWfXG6ZJLXAN2k1Tf_yyA46S6sT1pNmbNBqmcBSa3CBX-8ssQ7zAaAuNwEALw_wcB&gad_source=1&gad_campaignid=20968028560&gbraid=0AAAAAD8sxezdmhMoLWG0r9kZkKeakH01u&gclid=Cj0KCQiAvtzLBhCPARIsALwhxdolWfXG6ZJLXAN2k1Tf_yyA46S6sT1pNmbNBqmcBSa3CBX-8ssQ7zAaAuNwEALw_wcB). Or [this thing](https://www.motomachines.com/evotech-performance-quad-lock-handlebar-mount-yamaha-tenere-rally-2019?utm_source=google&utm_medium=cpc&utm_campaign=18270211356&utm_content=&utm_term=&gad_source=1&gad_campaignid=18270217104&gbraid=0AAAAADuddyhb3eU9yOngf5w_cMXQkIvYA&gclid=Cj0KCQiAvtzLBhCPARIsALwhxdr7tAZrs6K6-vZycoNKqsquDtsTd17V7WPze7R6lWJo4A8EmRLcFgYaAl1FEALw_wcB).
 * [ ] ask about 600 mile service
 * [ ] hand guards
 * [ ] oil change
 * [ ] spools
+* [ ] Clutch
 
 # todo-later
 * [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
