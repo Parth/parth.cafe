@@ -6,7 +6,7 @@ Picked up from Logan from a storage location in Saratoga Springs. Battery a litl
 Am in search for most of the fun the CRF has given me, and also more comfort on the highway. 
 
 # todo-now
-* [ ] register
+* [x] register
 * [ ] heated grips
 * [ ] Clutch
 * [ ] quad lock
@@ -18,11 +18,90 @@ Am in search for most of the fun the CRF has given me, and also more comfort on 
 * [ ] Clutch
 
 # todo-later<!-- {"fold":true} -->
-<!-- {"fold":true} -->
 * [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
 * [ ] extra wheels for knobies?
 
 # todo much later<!-- {"fold":true} -->
 <!-- {"fold":true} -->
 * [ ] [plastics](https://www.tmbrmoto.com/collections/rtech/products/rtech-revolution-plastic-body-kit-2025-yamaha-tenere-700?variant=47230584488101)
+    Checking workspace v26.1.29 (/home/parth/Documents/lockbook/lockbook/libs/content/workspace)
+error[E0277]: `Rc<RefCell<bool>>` cannot be sent between threads safely
+   --> libs/content/workspace/src/workspace.rs:904:23
+    |
+904 |           thread::spawn(move || {
+    |  _________-------------_^
+    | |         |
+    | |         required by a bound introduced by this call
+905 | |             let data = data.read().unwrap();
+906 | |             let content = serde_json::to_string(&*data).unwrap();
+907 | |             fs::write(path, content)
+908 | |         });
+    | |_________^ `Rc<RefCell<bool>>` cannot be sent between threads safely
+    |
+    = help: within `WsPresistentData`, the trait `Send` is not implemented for `Rc<RefCell<bool>>`
+note: required because it appears within the type `ToolbarPersistence`
+   --> libs/content/workspace/src/tab/markdown_editor/widget/toolbar.rs:44:12
+    |
+44  | pub struct ToolbarPersistence {
+    |            ^^^^^^^^^^^^^^^^^^
+note: required because it appears within the type `MdPersistence`
+   --> libs/content/workspace/src/tab/markdown_editor/mod.rs:129:12
+    |
+129 | pub struct MdPersistence {
+    |            ^^^^^^^^^^^^^
+note: required because it appears within the type `WsPresistentData`
+   --> libs/content/workspace/src/workspace.rs:799:8
+    |
+799 | struct WsPresistentData {
+    |        ^^^^^^^^^^^^^^^^
+    = note: required for `std::sync::RwLock<WsPresistentData>` to implement `std::marker::Sync`
+    = note: required for `std::sync::Arc<std::sync::RwLock<WsPresistentData>>` to implement `Send`
+note: required because it's used within this closure
+   --> libs/content/workspace/src/workspace.rs:904:23
+    |
+904 |         thread::spawn(move || {
+    |                       ^^^^^^^
+note: required by a bound in `std::thread::spawn`
+   --> /rustc/29483883eed69d5fb4db01964cdf2af4d86e9cb2/library/std/src/thread/mod.rs:723:1
 
+error[E0277]: `Rc<RefCell<bool>>` cannot be shared between threads safely
+   --> libs/content/workspace/src/workspace.rs:904:23
+    |
+904 |           thread::spawn(move || {
+    |  _________-------------_^
+    | |         |
+    | |         required by a bound introduced by this call
+905 | |             let data = data.read().unwrap();
+906 | |             let content = serde_json::to_string(&*data).unwrap();
+907 | |             fs::write(path, content)
+908 | |         });
+    | |_________^ `Rc<RefCell<bool>>` cannot be shared between threads safely
+    |
+    = help: within `WsPresistentData`, the trait `std::marker::Sync` is not implemented for `Rc<RefCell<bool>>`
+note: required because it appears within the type `ToolbarPersistence`
+   --> libs/content/workspace/src/tab/markdown_editor/widget/toolbar.rs:44:12
+    |
+44  | pub struct ToolbarPersistence {
+    |            ^^^^^^^^^^^^^^^^^^
+note: required because it appears within the type `MdPersistence`
+   --> libs/content/workspace/src/tab/markdown_editor/mod.rs:129:12
+    |
+129 | pub struct MdPersistence {
+    |            ^^^^^^^^^^^^^
+note: required because it appears within the type `WsPresistentData`
+   --> libs/content/workspace/src/workspace.rs:799:8
+    |
+799 | struct WsPresistentData {
+    |        ^^^^^^^^^^^^^^^^
+    = note: required for `std::sync::RwLock<WsPresistentData>` to implement `std::marker::Sync`
+    = note: required for `std::sync::Arc<std::sync::RwLock<WsPresistentData>>` to implement `Send`
+note: required because it's used within this closure
+   --> libs/content/workspace/src/workspace.rs:904:23
+    |
+904 |         thread::spawn(move || {
+    |                       ^^^^^^^
+note: required by a bound in `std::thread::spawn`
+   --> /rustc/29483883eed69d5fb4db01964cdf2af4d86e9cb2/library/std/src/thread/mod.rs:723:1
+
+For more information about this error, try `rustc --explain E0277`.
+error: could not compile `workspace` (lib) due to 2 previous errors
