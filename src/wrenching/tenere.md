@@ -1,4 +1,4 @@
-# 1-23-25
+# 1x23-25
 Picked up from Logan from a storage location in Saratoga Springs. Battery a litle low on pickup, and there's damage on the headlights. Apart from that it's in great condition. Pretty surprised I was able to grab this 25 version with new suspension and throttle tech for so cheap. 
 
 ![pasted_image_2026-01-27_03-48-10.png](imports/pasted_image_2026-01-27_03-48-10.png)
@@ -16,9 +16,6 @@ Am in search for most of the fun the CRF has given me, and also more comfort on 
 * [ ] oil change
 * [ ] spools
 * [ ] Clutch
-
-- Not a heading
-  - 
 
 # todo-later
 * [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
