@@ -1,11 +1,11 @@
-# 1-23-25
+# 1-23-25<!-- {"fold":true} -->
 Picked up from Logan from a storage location in Saratoga Springs. Battery a litle low on pickup, and there's damage on the headlights. Apart from that it's in great condition. Pretty surprised I was able to grab this 25 version with new suspension and throttle tech for so cheap. 
 
-![pasted_image_2026-01-27_03-48-10.png](imports/pasted_image_2026-01-27_03-48-10.png)
+[pasted_image_2026-01-27_03-48-10.png](imports/pasted_image_2026-01-27_03-48-10.png)
 
 Am in search for most of the fun the CRF has given me, and also more comfort on the highway. 
 
-# todo-now
+# todo-now<!-- {"fold":true} -->
 * [x] register
 * [ ] [heated grips](https://yamaha-motor.com/p/tenere-700-heated-grip?srsltid=AfmBOorOxA5xfGyR-h57z6CfUtobh8K6ox1Ax5mtp6N8OuBMFzrOtYbY)
 * [ ] [Clutch](https://www.motodracing.com/asv-yamaha-tenere-700-levers-f3-style-shorty?setCurrencyId=1&sku=ASV-BRF340S+CRF340S-D&gad_source=1&gad_campaignid=20596204294&gclid=Cj0KCQiAyvHLBhDlARIsAHxl6xril7UlYh9DwNeSgqk3Qvt58jHzX7Hv2CrkBrKPwnVbgow307eitIoaAhQLEALw_wcB)
@@ -15,13 +15,11 @@ Am in search for most of the fun the CRF has given me, and also more comfort on 
 * [ ] hand guards
 * [ ] oil change
 * [ ] spools
-* [ ] Clutch
+  * [ ] Clutch
 
-# todo-later
-<!-- {"fold":true} -->
+# todo-later<!-- {"fold":true} -->
 * [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
 * [ ] extra wheels for knobies?
 
-# todo much later
-<!-- {"fold":true} -->
+# todo much later<!-- {"fold":true} -->
 * [ ] [plastics](https://www.tmbrmoto.com/collections/rtech/products/rtech-revolution-plastic-body-kit-2025-yamaha-tenere-700?variant=47230584488101)
