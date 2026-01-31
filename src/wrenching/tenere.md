@@ -21,6 +21,7 @@ Am in search for most of the fun the CRF has given me, and also more comfort on 
 # todo-later
 * [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
 * [ ] extra wheels for knobies?
+* [ ] [cruise control?](https://veridiancruise.com/knowledge-base/install-yamaha-tenere-700/?srsltid=AfmBOorCjgKm94agg6dP6cfFsDLDI-sM65VlJfzGq2uLXGo35wjnPZbE)
 
 # todo much later
 * [ ] [plastics](https://www.tmbrmoto.com/collections/rtech/products/rtech-revolution-plastic-body-kit-2025-yamaha-tenere-700?variant=47230584488101)
