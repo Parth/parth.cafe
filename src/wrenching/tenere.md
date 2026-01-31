@@ -18,6 +18,7 @@ Am in search for most of the fun the CRF has given me, and also more comfort on 
 # todo-later
 * [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
 * [ ] extra wheels for knobies?
+* [ ] rear lighting, maybe [on the license plate](https://denalielectronics.com/products/dnl-b6-10100?variant=43252575797432&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&tw_source=google&tw_adid=&tw_campaign=23401923798&tw_kwdid=&gad_source=1&gad_campaignid=23411341573&gbraid=0AAAAACzv8pUduC-1sn1yKxXDqUWs6oLJC&gclid=Cj0KCQiA7fbLBhDJARIsAOAqhsee961YM4TyYIIce1ZgQ4Pd8SXJyCE67iYka4OOvo0iTSY3sS2dKRkaArU9EALw_wcB), or upgrade [the blinkers](https://www.cyclopsadventuresports.com/Tuff-Light-full-flex-Blinkers_p_437.html).
 * [ ] [cruise control?](https://veridiancruise.com/knowledge-base/install-yamaha-tenere-700/?srsltid=AfmBOorCjgKm94agg6dP6cfFsDLDI-sM65VlJfzGq2uLXGo35wjnPZbE)
 
 # todo much later
