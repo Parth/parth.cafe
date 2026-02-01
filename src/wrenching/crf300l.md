@@ -1,7 +1,44 @@
 ![pasted_image_2025-07-28_00-50-23.png](imports/pasted_image_2025-07-28_00-50-23.png)
 
 # 1700 miles off-season refresh Febuary 26
-## 
+
+## Lighting fix<!-- {"fold":true} -->
+![pasted_image_2026-02-01_05-25-39.png](imports/pasted_image_2026-02-01_05-25-39.png)
+
+This fuse fell out of this relay, so I zip tied it back on. 
+
+## Heated grips<!-- {"fold":true} -->
+Old grips cut, throttle tube had to be filed and cut, pretty annoying. 
+![pasted_image_2026-02-01_05-27-02.png](imports/pasted_image_2026-02-01_05-27-02.png)
+
+![pasted_image_2026-02-01_05-27-19.png](imports/pasted_image_2026-02-01_05-27-19.png)
+
+Ultimately got it on and made sure throttle operation was smooth. There's a tiny rattle from one of the spacers, we'll have to see if it's noticable while riding. If so we'll have to go in and remove more material from the throttle tube and that should let us tighten things down more significantly.
+
+![pasted_image_2026-02-01_05-28-42.png](imports/pasted_image_2026-02-01_05-28-42.png)
+
+## Hand guards<!-- {"fold":true} -->
+Zeta hand guards and levers installed.
+![pasted_image_2026-02-01_05-29-29.png](imports/pasted_image_2026-02-01_05-29-29.png)
+![pasted_image_2026-02-01_05-29-43.png](imports/pasted_image_2026-02-01_05-29-43.png)
+
+## Aux wiring<!-- {"fold":true} -->
+Utilizing the factory aux connection for the hand grips and re-wiring the quadlock. 
+
+![pasted_image_2026-02-01_05-33-01.png](imports/pasted_image_2026-02-01_05-33-01.png)
+
+## Bolt fixes<!-- {"fold":true} -->
+Exhaust bolt was loose, it has been locktited: 
+![pasted_image_2026-02-01_05-33-54.png](imports/pasted_image_2026-02-01_05-33-54.png)
+
+This horrible broken screw had to be extracted from the kickstand and replaced:
+
+![pasted_image_2026-02-01_05-34-22.png](imports/pasted_image_2026-02-01_05-34-22.png)
+
+## Maintainence<!-- {"fold":true} -->
+Chain and sproket guard lubed.
+
+![pasted_image_2026-02-01_05-35-04.png](imports/pasted_image_2026-02-01_05-35-04.png)
 
 # 1700 miles Aug 25
 * Oil & filter changed 
