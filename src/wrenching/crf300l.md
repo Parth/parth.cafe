@@ -1,6 +1,6 @@
 ![pasted_image_2025-07-28_00-50-23.png](imports/pasted_image_2025-07-28_00-50-23.png)
 
-# 1700 miles off-season refresh Febuary 26
+# 1700 miles off-season refresh Febuary 26<!-- {"fold":true} -->
 
 ## Lighting fix<!-- {"fold":true} -->
 ![pasted_image_2026-02-01_05-25-39.png](imports/pasted_image_2026-02-01_05-25-39.png)
@@ -40,10 +40,10 @@ Chain and sproket guard lubed.
 
 ![pasted_image_2026-02-01_05-35-04.png](imports/pasted_image_2026-02-01_05-35-04.png)
 
-# 1700 miles Aug 25
+# 1700 miles Aug 25<!-- {"fold":true} -->
 * Oil & filter changed 
 
-# 1600 miles
+# 1600 miles<!-- {"fold":true} -->
 + back to dirt form
 + adventure rally tower <!-- {"fold":true} -->
 	+ required heavy modification of the rally tower itself due to a desired re-location of the ignition key that I was not willing to do
@@ -54,14 +54,14 @@ Chain and sproket guard lubed.
 
 ![pasted_image_2025-07-28_02-09-00.png](imports/pasted_image_2025-07-28_02-09-00.png)
 
-# 800 miles
+# 800 miles<!-- {"fold":true} -->
 + oil change
 + throttle cable adjustment
 + clutch cable adjustment
 + chain alignment check
 + chain lubrication
 
-# 570 miles - `SM`
+# 570 miles - `SM`<!-- {"fold":true} -->
 + warp 9 supermoto conversion
 	+ Required me to trim the fork plastics mildly.
 	+ Uses a larger sized rotor in the front which feels better, probably will get another rotor for the dirt setup to match.
@@ -72,12 +72,12 @@ Chain and sproket guard lubed.
 
 ![pasted_image_2025-07-28_00-56-43.png](imports/pasted_image_2025-07-28_00-56-43.png)
 
-# 400 miles
+# 400 miles<!-- {"fold":true} -->
 + Yoshimura RS-4 Full Exhaust System
 + 550 Performance Stage 1 91 octane map
 	+ I lil shaky at some rpms, will see if letting more air in helps
 
-# Info
+# Info<!-- {"fold":true} -->
 
 2024 Honda CRF300L (RED)
 
@@ -85,7 +85,7 @@ Purchased new at Motorcycle Mall for $7,162 on 4/13/24.
 
 VIN: `MLHND1611R5300059`
 
-# Motivation
+# Motivation<!-- {"fold":true} -->
 
 + Get a beginner bike I would want to keep.
 + Have an off road capable bike.
