@@ -12,8 +12,10 @@ jobs:
       - name: Cache Lockbook Data
         uses: actions/cache@v4
         with:
-          key: 'lockbook'
           path: ~/.lockbook
+          key: lockbook-${{ github.run_id }}
+          restore-keys: |
+            lockbook-
       - name: install lockbook
         run: |
           mkdir -p $HOME/bin
