@@ -1,5 +1,8 @@
 # 2-11-26 suspension
-Stock ground clearance:
+Stock ground clearance: 9.4in
+Initial front fork clearance 7.4mm
+New front fork position ~17.5mm
+Rear link set to -20mm position
 
 # 1-23-26
 Picked up from Logan Davis from a storage location in Saratoga Springs. Battery a litle low on pickup, and there's damage on the headlights. Apart from that it's in great condition. Pretty surprised I was able to grab this 25 version with new suspension and throttle tech for $8500 (kinda). 
