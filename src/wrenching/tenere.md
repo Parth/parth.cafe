@@ -1,4 +1,7 @@
-# 1-23-25
+# 2-11-26 suspension
+Stock ground clearance:
+
+# 1-23-26
 Picked up from Logan Davis from a storage location in Saratoga Springs. Battery a litle low on pickup, and there's damage on the headlights. Apart from that it's in great condition. Pretty surprised I was able to grab this 25 version with new suspension and throttle tech for $8500 (kinda). 
 
 [pasted_image_2026-01-27_03-48-10.png](imports/pasted_image_2026-01-27_03-48-10.png)
