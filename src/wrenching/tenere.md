@@ -1,3 +1,9 @@
+# ride notes
+* adjustable side stand
+* rear luggage
+* cruise control 
+* helmet audio and general comfort
+* shell
 
 
 # 2-11-26 suspension
