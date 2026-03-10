@@ -39,6 +39,9 @@ Originally purchased by Logan Davis, for $13,108.18 at GT-Toys. There was a Lien
   * [x] The lights have arrived
   * [ ] Bracket arive
 
+Screws
+
+
 # todo-later
 * [ ] crash bars? maybe not plastics are $300, everything else looks resiliant.
 * [ ] extra wheels for knobies?
