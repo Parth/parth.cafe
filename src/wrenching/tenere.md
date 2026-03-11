@@ -5,12 +5,26 @@
 * helmet audio and general comfort
 * shell
 
+# 3-10-26 Lighting
+For lighting I wanted a 
+![pasted_image_2026-03-11_04-00-15.png](imports/pasted_image_2026-03-11_04-00-15.png)
+
+# 2-12-26 Quad Lock
+Purchased the altrider handlebar mount which gave me the AMPs hole spacing standard on top of which I mounted the quad lock vibration dampener, on top of which I mounted the quad lock wireless charger. I opted for the version that hard wires 12V rather then the one that operates via a usb c converter. It's much more compact and fewer parts that may or may not work correctly. Wiring will be discussed in the headlight entry above.
+![pasted_image_2026-03-11_03-50-00.png](imports/pasted_image_2026-03-11_03-50-00.png)
+
+# 2-12-26 OEM heated grips
+OEM heated grips installed: ![pasted_image_2026-03-11_03-47-34.png](imports/pasted_image_2026-03-11_03-47-34.png). These are incredibly effective, the hottest setting is often too hot for me. Easy to control and tune in the dash.
 
 # 2-11-26 suspension
 Stock ground clearance: 9.4in
 Initial front fork clearance 7.4mm
 New front fork position ~17.5mm
 Rear link set to -20mm position
+
+went from not being able to touch both feet on the ground at the same time, to being able to just barely tip toe. I was pretty unsure about this change but as soon as I got in the real world it felt right.
+
+![pasted_image_2026-03-11_03-46-39.png](imports/pasted_image_2026-03-11_03-46-39.png)
 
 # 1-23-26
 Picked up from Logan Davis from a storage location in Saratoga Springs. Battery a litle low on pickup, and there's damage on the headlights. Apart from that it's in great condition. Pretty surprised I was able to grab this 25 version with new suspension and throttle tech for $8500 (kinda). 
