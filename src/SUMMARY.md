@@ -25,6 +25,7 @@
 + [CRF 300L](wrenching/crf300l.md)
 + [Tiguan](wrenching/tiguan.md)
 + [Small Toolkit](wrenching/small-toolkit.md)
++ [Drop Log](wrenching/drop-log.md)
 + [CB 650r](wrenching/cb650r.md)
 + [The Miata](wrenching/miata/future-race-car.md)
   + [Full History](wrenching/miata/miata.md)

@@ -83,3 +83,5 @@ tire pressure
 
 # todo much later
 * [ ] [plastics](https://www.tmbrmoto.com/collections/rtech/products/rtech-revolution-plastic-body-kit-2025-yamaha-tenere-700?variant=47230584488101)
+
+todo docs: document the coolant resevoir
