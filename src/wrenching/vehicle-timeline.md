@@ -1,7 +1,10 @@
-# May 24 - Present [Cb650r](cb650r.md)
+# Jan 26 - Present ['25 Tenere 700](tenere.md)
+![pasted_image_2026-03-11_04-50-28.png](imports/pasted_image_2026-03-11_04-50-28.png)
+
+# May 24 - Jan 26 ['19 Cb650r](cb650r.md)
 ![pasted_image_2025-07-28_03-16-57.png](imports/pasted_image_2025-07-28_03-16-57.png)
 
-# Apr 24 - Present [CRF 300L](crf300l.md)
+# Apr 24 - Present ['24 CRF 300L](crf300l.md)
 ![pasted_image_2025-07-28_03-14-25.png](imports/pasted_image_2025-07-28_03-14-25.png)
 
 # Nov 20 - Present ['17 F150 XLT](f150.md)
@@ -31,5 +34,5 @@
 `Mlhmc4115b5001266`
 ![pasted_image_2025-07-28_02-50-01.png](imports/pasted_image_2025-07-28_02-50-01.png)
 ![pasted_image_2025-07-28_02-51-21.png](imports/pasted_image_2025-07-28_02-51-21.png)
-# 14-16: '10 Audi A4
 
+# 14-16: '10 Audi A4

@@ -20,17 +20,18 @@
 # Wrenching
 + [Wrenching Levels](wrenching/wrenching-levels.md)
 + [Vehicle Timeline](wrenching/vehicle-timeline.md)
++ [F150](wrenching/f150.md)
++ [Tenere 700](wrenching/tenere.md)
++ [CRF 300L](wrenching/crf300l.md)
++ [Tiguan](wrenching/tiguan.md)
++ [Small Toolkit](wrenching/small-toolkit.md)
++ [CB 650r](wrenching/cb650r.md)
 + [The Miata](wrenching/miata/future-race-car.md)
   + [Full History](wrenching/miata/miata.md)
   + [Taking Stock of our Purchase](wrenching/miata/taking-stock-of-our-purchase.md)
   + [Updating the Interior](wrenching/miata/updating-the-interior.md)
   + [Windshield and Windows](wrenching/miata/windshield-repair.md)
   + [Autocross 2023](wrenching/miata/Autocross2023.md)
-+ [F150](wrenching/f150.md)
-+ [CB 650r](wrenching/cb650r.md)
-+ [CRF 300L](wrenching/crf300l.md)
-+ [Tiguan](wrenching/tiguan.md)
-+ [Small Toolkit](wrenching/small-toolkit.md)
 
 # Life Tracking
 + [Books](lt/books.md)

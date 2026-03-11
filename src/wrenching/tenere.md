@@ -1,11 +1,4 @@
-# ride notes
-* adjustable side stand
-* rear luggage
-* cruise control 
-* helmet audio and general comfort
-* shell
-
-# 3-5-26 Luggage & Mirrors
+# 3-5-26 Luggage & Mirrors **2000 miles**
 I installed the tusk luggage top rack, and it's great. I'm able to use carabiners to clip in my tusk duffel bag and backpack. Riding with nothing on my back is a great feeling.
 
 I also installed double take mirrors because every time I dropped the mirror would turn and loosen itself. It was also super annoying to try to get a wrench past the brake reservoir, the double take mirrors have a big allan bolt up top. Install was very pleasant, mirrors are vastly more effective, and the ball mounts are pretty useful.
@@ -51,7 +44,7 @@ went from not being able to touch both feet on the ground at the same time, to b
 
 ![pasted_image_2026-03-11_03-46-39.png](imports/pasted_image_2026-03-11_03-46-39.png)
 
-# 1-23-26
+# 1-23-26 **1000 miles**
 Picked up from Logan Davis from a storage location in Saratoga Springs. Battery a litle low on pickup, and there's damage on the headlights. Apart from that it's in great condition. Pretty surprised I was able to grab this 25 version with new suspension and throttle tech for $8500 (kinda). 
 
 [pasted_image_2026-01-27_03-48-10.png](imports/pasted_image_2026-01-27_03-48-10.png)
@@ -79,6 +72,7 @@ Originally purchased by Logan Davis, for $13,108.18 at GT-Toys. There was a Lien
   * [x] ~~Bracket arive~~
 
 Screws
+tire pressure
 
 
 # todo-later
