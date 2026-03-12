@@ -44,7 +44,7 @@ went from not being able to touch both feet on the ground at the same time, to b
 
 ![pasted_image_2026-03-11_03-46-39.png](imports/pasted_image_2026-03-11_03-46-39.png)
 
-# 1-23-26 **1000 miles**
+# 1-23-26 **1700 miles**
 Picked up from Logan Davis from a storage location in Saratoga Springs. Battery a litle low on pickup, and there's damage on the headlights. Apart from that it's in great condition. Pretty surprised I was able to grab this 25 version with new suspension and throttle tech for $8500 (kinda). 
 
 [pasted_image_2026-01-27_03-48-10.png](imports/pasted_image_2026-01-27_03-48-10.png)
