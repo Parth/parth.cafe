@@ -7,6 +7,9 @@
 # Apr 24 - Present ['24 CRF 300L](crf300l.md)
 ![pasted_image_2025-07-28_03-14-25.png](imports/pasted_image_2025-07-28_03-14-25.png)
 
+# Sept 23 - Feb 26 ['97 NA8 Miata](miata/miata.md)
+![pasted_image_2025-07-28_03-13-01.png](miata/imports/pasted_image_2025-07-28_03-13-01.png)
+
 # Nov 20 - Present ['17 F150 XLT](f150.md)
 ![pasted_image_2025-07-28_03-10-58.png](imports/pasted_image_2025-07-28_03-10-58.png)
 
