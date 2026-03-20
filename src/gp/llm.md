@@ -23,4 +23,6 @@ But perhaps LLMs weren't the problem, maybe capturing value based on attention /
 
 This sort of patern probably extends to art. There's probably a bunch of situations where a graphic designer would be hired which will no longer happen due to generative ai.
 
-I don't think it's nessisarily a problem that computers are doing things that people used to do, I think
+I don't think it's nessisarily a problem that computers are doing things that people used to do. I think the ethical dillema is around the fact that LLMs were likely trained on assets that the companies didn't have the rights to. The artists are certainly not capturing the economic upside that large language models are generating.
+ 
+I can't tell how fragile of an ecosystem art is. I think there's a large volume of people who engage in art for the purpose of self expression and joy. And I certainly think that there's an upper limit to LLM quality (more on this later). If you knock out the lower rungs on the career ladder for young artists, do we end up just living in a world with shittier art?
