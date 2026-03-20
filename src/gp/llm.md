@@ -4,7 +4,7 @@ My thoughts are pretty mixed on LLMs, I think there's cool tech that's exciting,
 I'm going to use this post to clarify my own thoughts and share in what ways I do and do not use LLMs.
 
 # Technological Core
-At it's core I do think something of value has been achieved at the core of generative AI. At the heart of the crypto craze (an area I have a much deeper understanding of) there was a significant step forward in adversarial distributed systems described by the Bitcoin whitepaper. And I have the instinct that there's similar human achievement at the core of the latest wave of AI progress. *Attention is all you need* is probably the core of this progress, and I plan to read this paper soon.
+At it's core I do think something of value has been achieved at the core of generative AI. At the heart of the crypto craze (an area I have a much deeper understanding of) there was a significant step forward in adversarial distributed systems described by the Bitcoin whitepaper. And I have the instinct that there's similar human achievement at the core of the latest wave of AI progress. *Attention is all you need* is probably the core of this progress, and I plan to read this paper soon. 
 
 My current understanding of the technology is that we now have a way to ingest a large volume of written word, and basically guess with a high degree of accuracy what the next token in a stream of text would be.
 
