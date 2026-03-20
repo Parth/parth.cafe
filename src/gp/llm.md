@@ -10,3 +10,4 @@ My current understanding of the technology is that we now have a way to ingest a
 
 But that's not all, LLMs also attempt to nonlinearly combine areas of value, so they can ingest an understanding of algorithms, the specification of a new programming language and combine these things in novel ways. Another example would be to generate novel art in the style of Van Gogh.
 
+The core of this technology has broad applications, from allowing humans to use natural language in more contexts, to lowering the cost of producing resources in more contexts. The technology is promising, however I think we're 
