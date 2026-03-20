@@ -21,4 +21,6 @@ LLMs seem to be a much more efficient way to reference a lot of this same inform
 
 But perhaps LLMs weren't the problem, maybe capturing value based on attention / advertising was never the path we should have pursued. I personally blog for the love of the game (there are no ads on this blog and likely there never will be). 
 
-Will the same be true for art? 
+This sort of patern probably extends to art. There's probably a bunch of situations where a graphic designer would be hired which will no longer happen due to generative ai.
+
+I don't think it's nessisarily a problem that computers are doing things that people used to do, I think
