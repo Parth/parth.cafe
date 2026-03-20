@@ -8,4 +8,5 @@ At it's core I do think something of value has been achieved at the core of gene
 
 My current understanding of the technology is that we now have a way to ingest a large volume of written word, and basically guess with a high degree of accuracy what the next token in a stream of text would be.
 
-But that's not all, LLMs also attempt to nonlinearly combine areas of value, so they can ingest an understanding of algorithms, the specification of a new programming language and combine these things in novel ways. 
+But that's not all, LLMs also attempt to nonlinearly combine areas of value, so they can ingest an understanding of algorithms, the specification of a new programming language and combine these things in novel ways. Another example would be to generate novel art in the style of Van Gogh.
+
