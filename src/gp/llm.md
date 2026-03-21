@@ -1,3 +1,6 @@
+> [!CAUTION]
+> wip - draft
+
 # What do you think about AI?
 For whatever reason people ask me this question a lot. Maybe it's because people know I love programming and LLMs have been one of the topics that has generated the most buzz around the internet.
 My thoughts are pretty mixed on LLMs, I think there's cool tech that's exciting, but I'm nervous about the current rollout and societal adoption. 
@@ -26,3 +29,10 @@ This sort of patern probably extends to art. There's probably a bunch of situati
 I don't think it's nessisarily a problem that computers are doing things that people used to do. I think the ethical dillema is around the fact that LLMs were likely trained on assets that the companies didn't have the rights to. The artists are certainly not capturing the economic upside that large language models are generating.
  
 I can't tell how fragile of an ecosystem art is. I think there's a large volume of people who engage in art for the purpose of self expression and joy. And I certainly think that there's an upper limit to LLM quality (more on this later). If you knock out the lower rungs on the career ladder for young artists, do we end up just living in a world with shittier art?
+
+* quality
+* Atrophy of programming skills
+* Financial investment and exposure
+* bad faith behavior from AI companies
+* How I use AI
+* 
