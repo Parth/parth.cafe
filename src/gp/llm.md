@@ -36,3 +36,4 @@ I can't tell how fragile of an ecosystem art is. I think there's a large volume 
 * bad faith behavior from AI companies
 * How I use AI
 * if you're getting value from lLms 
+* massive codebase onboarding 
