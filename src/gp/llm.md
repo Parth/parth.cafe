@@ -38,3 +38,4 @@ I can't tell how fragile of an ecosystem art is. I think there's a large volume 
 * if you're getting value from lLms 
 * massive codebase onboarding 
 * cognitive debt
+* Sentiment
