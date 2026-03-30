@@ -140,7 +140,6 @@ If someone recomends a book to me, it ends up here:
 + Pg Wodehouse J&W: Dad
 + Tao te Ching Raayan
 + The mom test: Lee
-+ American psycho 
 + .com secrets
 + hundred million dollar offer
 + copywriting secrets
