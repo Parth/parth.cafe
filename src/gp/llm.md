@@ -30,7 +30,7 @@ I don't think it's nessisarily a problem that computers are doing things that pe
  
 I can't tell how fragile of an ecosystem art is. I think there's a large volume of people who engage in art for the purpose of self expression and joy. And I certainly think that there's an upper limit to LLM quality (more on this later). If you knock out the lower rungs on the career ladder for young artists, do we end up just living in a world with shittier art?
 
-* quality
+* ~~quality~~
 * Atrophy of programming skills
 * Financial investment and exposure
 * bad faith behavior from AI companies
@@ -39,3 +39,4 @@ I can't tell how fragile of an ecosystem art is. I think there's a large volume 
 * massive codebase onboarding 
 * cognitive debt
 * Sentiment
+* greybeards were ahead with worse tools 
