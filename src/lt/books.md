@@ -7,7 +7,7 @@ Unlike most, I organize the physical bookshelf in my house in the order I read t
 ## Before College
 
 Before getting to college I was reading mostly for fun or because I had to from school. I enjoyed reading 
-- Harry Potter
+- **Harry Potter**
 - The Series of Unfortunate Events
 - The Giver
 - Percy Jackson trilogy
@@ -108,6 +108,9 @@ It's hard and maybe not in my best interest to form a narritive about things tha
 * Tell tale heart 
 * Metamorphosis
 * American psycho
+* Metamorphasis
+* The Alchemist
+* Re-Read: **Harry Potter Series**
 
 # Reading Backlog
 If someone recomends a book to me, it ends up here:

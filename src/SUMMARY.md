@@ -6,7 +6,6 @@
 - [Ideation](gp/ideation.md)
 - [System Design](gp/system-design.md)
 - [Microservices FAQ](gp/microservices-faq.md)
-- [LLM Reflections 2026](gp/llm.md)
 
 # Lockbook
 - [Introducing Lockbook](lb/introducing-lockbook.md)
