@@ -33,6 +33,7 @@
   + [Updating the Interior](wrenching/miata/updating-the-interior.md)
   + [Windshield and Windows](wrenching/miata/windshield-repair.md)
   + [Autocross 2023](wrenching/miata/Autocross2023.md)
++ [Home](wrenching/home.md)
 
 # Life Tracking
 + [Books](lt/books.md)
