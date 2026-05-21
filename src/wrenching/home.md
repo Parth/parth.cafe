@@ -5,6 +5,12 @@
 
 The basement will become livable via: dricore, closed cell foam, steel studs, and rockwool. Once we have faith in no more water ingress, we can sheet rock it up.
 
+# Mailbox - April 2025
+
+Someone hit our mailbox while leaving the driveway, we replaced it with a newer, larger mailbox. My first time doing a concrete pour. I dug a more significant hole than was needed, I believe this is stronger.
+
+![pasted_image_2026-05-21_19-14-51.png](imports/pasted_image_2026-05-21_19-14-51.png)
+
 # Water Ingress Round 7 - Oct 2025
 
 ![pasted_image_2026-05-21_00-50-38.png](imports/pasted_image_2026-05-21_00-50-38.png)
@@ -75,3 +81,4 @@ Homeownership is harder than we expected it to be. We started off our journey re
 # todo:
 * finished bathroom
 * wood working stuff
+* Mailbox
