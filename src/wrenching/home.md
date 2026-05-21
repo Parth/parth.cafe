@@ -5,7 +5,7 @@
 
 The basement will become livable via: dricore, closed cell foam, steel studs, and rockwool. Once we have faith in no more water ingress, we can sheet rock it up.
 
-# Mailbox - April 2025
+# Mailbox - April 2026
 
 Someone hit our mailbox while leaving the driveway, we replaced it with a newer, larger mailbox. My first time doing a concrete pour. I dug a more significant hole than was needed, I believe this is stronger.
 
@@ -69,6 +69,8 @@ This worked in the sense that we never had big puddles again in the front, it wa
 
 ![pasted_image_2026-05-21_00-34-22.png](imports/pasted_image_2026-05-21_00-34-22.png)
 
+look at the flow on this bad boy
+
 ![pasted_image_2026-05-21_00-34-30.png](imports/pasted_image_2026-05-21_00-34-30.png)
 
 # First Home - 2024
@@ -81,4 +83,3 @@ Homeownership is harder than we expected it to be. We started off our journey re
 # todo:
 * finished bathroom
 * wood working stuff
-* Mailbox
