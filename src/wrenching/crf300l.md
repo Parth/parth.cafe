@@ -1,7 +1,7 @@
 ![pasted_image_2025-07-28_00-50-23.png](imports/pasted_image_2025-07-28_00-50-23.png)
 
 
-
+![pasted_image_2026-05-27_03-28-02.jpg](imports/pasted_image_2026-05-27_03-28-02.jpg)
 # 1700 miles off-season refresh Febuary 26<!-- {"fold":true} -->
 
 ## Lighting fix<!-- {"fold":true} -->
