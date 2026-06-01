@@ -1,3 +1,24 @@
+# 5-31-26 Tech upgrades & Kickstand **3000 miles**
+
+### Veridian cruise control
+Pretty well integrated aftermarket electronic cruise control. I’ve used some that are mechanical and it doesn’t work that well. 
+
+Getting the tank off was such a bitch (last pic).
+![pasted_image_2026-06-01_00-32-12.png](imports/pasted_image_2026-06-01_00-32-12.png)
+
+### Yamaha QS
+Finally an up down quickshifter on a bike
+![pasted_image_2026-06-01_00-33-38.png](imports/pasted_image_2026-06-01_00-33-38.png)
+
+### Adjustable Kick stand
+Lowering the bike changed kickstand angle. 
+![pasted_image_2026-06-01_00-47-29.png](imports/pasted_image_2026-06-01_00-47-29.png)
+
+### Some repairs
+The connections came loose for the lights. I had skill issues while using these splice wire terminals. I thought I was using some nice colors but the colors correspond with the wire thickness. I used the right thickness on the problematic circuits and things seem fine. I skipped one (quad lock) due to laziness and existing robustness we’ll see if I regret that. 
+
+![pasted_image_2026-06-01_00-45-06.png](imports/pasted_image_2026-06-01_00-45-06.png)
+
 # 3-5-26 Luggage & Mirrors **2000 miles**
 I installed the tusk luggage top rack, and it's great. I'm able to use carabiners to clip in my tusk duffel bag and backpack. Riding with nothing on my back is a great feeling.
 
@@ -63,16 +84,16 @@ Originally purchased by Logan Davis, for $13,108.18 at GT-Toys. There was a Lien
 * [x] ~~hand guards~~
 * [x] oil change
   * [ ] need to check oil type
-  * [ ] filter arrival
+  * [x] filter arrival
 * [x] ~~spools~~
   * [x] ~~arrived~~
-* [x] quickshifter
+* [x] ~~quickshifter~~
 * [x] ~~lighting~~
   * [x] ~~The lights have arrived~~
   * [x] ~~Bracket arive~~
 
 Screws
-tire pressure
+~~tire pressure~~
 
 
 # todo-later
