@@ -2,9 +2,9 @@
 
 
 ![pasted_image_2026-05-27_03-28-02.jpg](imports/pasted_image_2026-05-27_03-28-02.jpg)
-# 1700 miles off-season refresh Febuary 26<!-- {"fold":true} -->
+# 1700 miles off-season refresh Febuary 26
 
-## Lighting fix<!-- {"fold":true} -->
+## Lighting fix
 ![pasted_image_2026-02-01_05-25-39.png](imports/pasted_image_2026-02-01_05-25-39.png)
 
 This fuse fell out of this relay, so I zip tied it back on. 
