@@ -4,7 +4,7 @@
 Pretty well integrated aftermarket electronic cruise control. I’ve used some that are mechanical and it doesn’t work that well. 
 
 Getting the tank off was such a bitch (last pic).
-![pasted_image_2026-06-01_00-32-12.png](imports/pasted_image_2026-06-01_00-32-12.png)
+![pasted_image_2026-06-01_00-32-12.png|300](imports/pasted_image_2026-06-01_00-32-12.png)
 
 ### Yamaha QS
 Finally an up down quickshifter on a bike
