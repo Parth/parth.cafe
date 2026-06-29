@@ -17,7 +17,7 @@ Lowering the bike changed kickstand angle.
 ### Some repairs
 The connections came loose for the lights. I had skill issues while using these splice wire terminals. I thought I was using some nice colors but the colors correspond with the wire thickness. I used the right thickness on the problematic circuits and things seem fine. I skipped one (quad lock) due to laziness and existing robustness we’ll see if I regret that. 
 
-![pasted_image_2026-06-01_00-45-06.png](imports/pasted_image_2026-06-01_00-45-06.png)
+![pasted_image_2026-06-01_00-45-06.png](imports/pasted_image_2026-06-01_00-45-06.png) 
 
 # 3-5-26 Luggage & Mirrors **2000 miles**
 I installed the tusk luggage top rack, and it's great. I'm able to use carabiners to clip in my tusk duffel bag and backpack. Riding with nothing on my back is a great feeling.
