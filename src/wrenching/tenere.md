@@ -30,9 +30,7 @@ I also stowed some rope in case of emergency. I think a small block and tackle w
 
 # 3-5-26 Lighting, Handguards, Levers
 For lighting I wanted a a rich amber pattern as DRLs, and then a powerful set of yellow lights synced to my high beam switch.
-![pasted_image_2026-03-11_04-00-15.png](imports/pasted_image_2026-03-11_04-00-15.png)
-
-![pasted_image_2026-03-11_04-04-02.png](imports/pasted_image_2026-03-11_04-04-02.png)
+![pasted_image_2026-03-11_04-00-15.png|300](imports/pasted_image_2026-03-11_04-00-15.png) ![pasted_image_2026-03-11_04-04-02.png|300](imports/pasted_image_2026-03-11_04-04-02.png)
 
 All the wires were routed to the right side. All the DRLs and the Quad Lock are on the accessory circuit. The high beam circuit is on it's own relay, ground triggered by the headlight wire.
 
