@@ -6,6 +6,7 @@
 - [Ideation](gp/ideation.md)
 - [System Design](gp/system-design.md)
 - [Microservices FAQ](gp/microservices-faq.md)
+- [Shipping-software](gp/shipping-software.md)
 
 # Lockbook
 - [Introducing Lockbook](lb/introducing-lockbook.md)
