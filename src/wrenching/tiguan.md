@@ -1,3 +1,8 @@
+* [ ] wipers
+* [ ] Oil
+* [ ] Windshield fluid
+
+
 # August 2025 - 56k
 - Windshield wiper fluid recall part installed long ago and has fixed the problem
 - Changed oil using OEM drain plug has fixed the problem
