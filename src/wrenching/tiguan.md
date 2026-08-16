@@ -1,6 +1,7 @@
 * [ ] wipers
 * [ ] Oil
 * [ ] Windshield fluid
+* [ ] Garage openers
 
 
 # August 2025 - 56k
