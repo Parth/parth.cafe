@@ -1,3 +1,6 @@
-Somehow, at the moment AI is simaltaneously feels like the *newest programming language / javascript framework* as well as the thing to be maximally outraged about.
+At the current moment, somehow AI has managed to be something that is both the subject of outrage, and immense excitement.
 
-It feels like the *the newest programming language* in the sense that people are making some pretty wild claims about what it can do. 
+This is going to be an attempt to index the various perspectives I've heard and share my perspective. 
+
+# Outrage
+AI energy usage. This reminds me of 
