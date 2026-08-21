@@ -24,4 +24,14 @@ For society, more people have access to greater opportunities when high quality 
 We spend a lot of time debating healthcare costs, and I'm always dissapointed when people don't bring up the impact of patent monopolies
 > [...] patent monopolies and related protections — are the reason many prices are high to begin with. Nearly all drugs, tests, vaccines, and medical equipment would be hugely cheaper without these monopolies. [source](https://cepr.net/publications/government-granted-monopolies-in-healthcare-create-need-for-prices-controls/)
 
-Personally I would trade further R&D for massively reduced day-to-day healthcare costs. Pharma companies could still offset high research costs by trying to control distribution of medicine. 
+Personally I would trade further R&D for massively reduced day-to-day (stitches, broken arms, baby deliveries) healthcare costs. Pharma companies could still offset high research costs by trying to control distribution of medicine.
+
+For music, on the consumption side: Physical media was replaced by digital ownership. Digital ownership was replaced with streaming. What if streaming could be replaced by something that's free and convenient? And when they want frictionlessly without having any intermediaries (when they feel a connection with an artist) what if they could just tip them on the spot. Or buy concert tickets, etc.
+
+On the musician's end there used to be heavily gate kept access to listeners via record labels. Now muscians, authors, artists can often go directly to their community through platforms like Spotify. What if even these remaining intermediaries (platform's fees, taxes, etc) were eliminated and they could directly receive value for their art?
+
+Isn't this the way information *tends*? It tends towards greater access and freedom.
+
+## Software Licensing
+
+A variant of the IP conversation specific to software is around 
