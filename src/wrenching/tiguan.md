@@ -1,10 +1,13 @@
-* [ ] wipers
-* [ ] Oil
-* [ ] Windshield fluid
-* [ ] Garage openers
-
 # August 2026 - 65683
-
+* oil, filter, and drain plug changed. Says "genuine" but plug seems a lil sus.
+* windshield fluid topped off. recall part working fine now.
+* engine air filter changed, also didn't seem required like last time.
+* cabin air filter changed, seemingly for first time, seemed required.
+* dad topped off coolant a month ago or so.
+* windshield wipers not replaced, but ordered to dad.
+* brakes checked and lot of life left
+* tire pressure set 36psi
+* service indicators reset
 
 # August 2025 - 56k
 - Windshield wiper fluid recall part installed long ago and has fixed the problem
