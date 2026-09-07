@@ -1,3 +1,9 @@
+# Process & Product
+
+I have a friend who is so based that he wouldn't go near anything llm related with a 10ft pole. Another couple who have maximally adopted LLMs into their life and are interested in bridging any remaining gaps preventing them from LLMing even harder. Unfortunately my stance on LLMs is more unclear, even to myself. So I'm going to share some of how I'm thinking about this fascinating & scary new dynamic that's entering the meta.
+
+
+
 # Product, Process, AI and Morality
 
 
