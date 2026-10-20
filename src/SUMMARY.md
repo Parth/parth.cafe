@@ -28,6 +28,7 @@
 + [Small Toolkit](wrenching/small-toolkit.md)
 + [Drop Log](wrenching/drop-log.md)
 + [CB 650r](wrenching/cb650r.md)
++ [Emonda](wrenching/emonda.md)
 + [The Miata](wrenching/miata/future-race-car.md)
   + [Full History](wrenching/miata/miata.md)
   + [Taking Stock of our Purchase](wrenching/miata/taking-stock-of-our-purchase.md)
