@@ -4,6 +4,7 @@
 # Todo
 * [ ] current gears are annoying
   * Proposed upgrade: Shimano Deore 1x11, 11–51T cassette. Amazon links below are model-specific searches, not verified seller listings.
+  * https://www.performancebike.com/shimano-deore-xt-m8100-mountain-bike-mini-groupset-black-1-x-12-speed-shimanodeorextgrp3-bdl/p1585800
   * [ ] Rear derailleur: Shimano Deore RD-M5100-SGS, 11-speed, clutch — [Amazon search](https://www.amazon.com/s?k=Shimano+RD-M5100-SGS)
   * [ ] Right shifter: Shimano SL-M5100-R, 11-speed, clamp-band version (not I-SPEC) — [Amazon search](https://www.amazon.com/s?k=Shimano+SL-M5100-R+11+speed+clamp)
   * [ ] Cassette: Shimano CS-M5100-11, **11–51T** — [Amazon search](https://www.amazon.com/s?k=Shimano+CS-M5100-11+11-51T)
