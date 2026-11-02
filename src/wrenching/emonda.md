@@ -6,3 +6,8 @@
 * handlebars a bit too wide
 * can I have faster tires?
 * grip tape is eol 
+
+# todo
+* [ ] silver sharpie
+* [ ] Mailbox
+* [ ] Backpack quad lock thing
