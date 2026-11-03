@@ -7,7 +7,6 @@
 * can I have faster tires?
 * grip tape is eol 
 
-# todo
-* [ ] silver sharpie
-* [ ] Mailbox
-* [ ] Backpack quad lock thing
+![pasted_image_2026-11-02_23-06-29.jpg](imports/pasted_image_2026-11-02_23-06-29.jpg)
+
+Cockpit increment. Need to replace hoods and possibly the white tape on the stem. 
