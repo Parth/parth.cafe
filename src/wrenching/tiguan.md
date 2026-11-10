@@ -28,7 +28,7 @@
 	+ [Door removal procedure](https://www.youtube.com/watch?app=desktop&v=lV7vVU9EPms). 
 	+ Fixed
 + Oil leak discovered
-	+ seeems like it’s due to a bad aftermarket plug, confirmed by [amazon reviews](https://www.amazon.com/Dorman-Autograde-090-090CD-Plastic-Drain/dp/B07QNLN7SM/ref=sr_1_3?crid=WR5CUK47TV5Q&dib=eyJ2IjoiMSJ9.SB4oA_J0zjxqkgSsFDMRlX8cSvnMyynTpazvDELAPMARuFAqwSh558ZBNpx6MTjdlUplk4zI4qhGl6KWV3S8o_13mIQbs3ESsPPQL9XUVioZ2LTPL2cKPzuwnWy07TWKpP3me8Bq794sEo_Z3MqsXBhskWEOGD_Tybmud3zi_1DuhGSwDI5zVQBp4ficQEsDAyPWny0BcHJr5yfihnW2Wp_kpWgxsINzSYQFvpfkmC0.gjcI99fO4mix-dtxK4jpC2JQLPqFe3ti3VOPgd-rnB0&dib_tag=se&keywords=Tiguan+Oem+drain+plug&qid=1730167973&sprefix=tiguan+oem+drain+plug+%2Caps%2C75&sr=8-3#customerReviews)
+	+ seems like it’s due to a bad aftermarket plug, confirmed by [amazon reviews](https://www.amazon.com/Dorman-Autograde-090-090CD-Plastic-Drain/dp/B07QNLN7SM/ref=sr_1_3?crid=WR5CUK47TV5Q&dib=eyJ2IjoiMSJ9.SB4oA_J0zjxqkgSsFDMRlX8cSvnMyynTpazvDELAPMARuFAqwSh558ZBNpx6MTjdlUplk4zI4qhGl6KWV3S8o_13mIQbs3ESsPPQL9XUVioZ2LTPL2cKPzuwnWy07TWKpP3me8Bq794sEo_Z3MqsXBhskWEOGD_Tybmud3zi_1DuhGSwDI5zVQBp4ficQEsDAyPWny0BcHJr5yfihnW2Wp_kpWgxsINzSYQFvpfkmC0.gjcI99fO4mix-dtxK4jpC2JQLPqFe3ti3VOPgd-rnB0&dib_tag=se&keywords=Tiguan+Oem+drain+plug&qid=1730167973&sprefix=tiguan+oem+drain+plug+%2Caps%2C75&sr=8-3#customerReviews)
 	+ Fixed although possibly overtightened.
 + Coolant was a tiny bit under the min mark, so I topped it off with "violet peak antifreeze for german cars" that we've been using on the A4. 
 
